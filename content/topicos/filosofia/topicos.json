@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fil.epistemologia",
+    "titulo": "Teoria do Conhecimento",
+    "descricao": "Empirismo, racionalismo, idealismo kantiano, ceticismo, ciência e método científico, verdade e justificação",
+    "area": "ciencias-humanas",
+    "disciplina": "filosofia",
+    "nivel": 2,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": ["epistemologia", "empirismo", "racionalismo", "Descartes", "Locke", "Hume", "Kant", "ceticismo", "método científico", "verdade", "conhecimento"]
+  },
+  {
+    "id": "fil.etica",
+    "titulo": "Ética e Moral",
+    "descricao": "Ética das virtudes (Aristóteles), deontologia (Kant), utilitarismo (Mill), ética aplicada (bioética, ética ambiental, direitos humanos)",
+    "area": "ciencias-humanas",
+    "disciplina": "filosofia",
+    "nivel": 2,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": ["ética", "moral", "virtude", "dever", "utilitarismo", "consequencialismo", "deontologia", "Kant", "Aristóteles", "bioética", "direitos humanos"]
+  },
+  {
+    "id": "fil.politica",
+    "titulo": "Filosofia Política e Contrato Social",
+    "descricao": "Estado de natureza, contrato social (Hobbes, Locke, Rousseau), democracia, poder, soberania, liberalismo, marxismo",
+    "area": "ciencias-humanas",
+    "disciplina": "filosofia",
+    "nivel": 2,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": ["contrato social", "Hobbes", "Locke", "Rousseau", "democracia", "soberania popular", "poder", "estado", "liberalismo", "marxismo", "alienação"]
+  },
+  {
+    "id": "fil.estetica",
+    "titulo": "Estética, Arte e Cultura",
+    "descricao": "Belo e sublime, arte como mimese e expressão, indústria cultural, estética crítica (Adorno, Benjamin), função social da arte",
+    "area": "ciencias-humanas",
+    "disciplina": "filosofia",
+    "nivel": 3,
+    "pre_requisitos": ["fil.epistemologia"],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": ["estética", "belo", "sublime", "arte", "mimese", "indústria cultural", "Adorno", "Benjamin", "cultura de massa", "autonomia da arte"]
+  },
+  {
+    "id": "fil.filosofia_ciencia",
+    "titulo": "Filosofia da Ciência e Lógica",
+    "descricao": "Lógica formal, dedução, indução, falsificacionismo (Popper), paradigma científico (Kuhn), racionalidade científica",
+    "area": "ciencias-humanas",
+    "disciplina": "filosofia",
+    "nivel": 3,
+    "pre_requisitos": ["fil.epistemologia"],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": ["lógica", "dedução", "indução", "Popper", "falsificacionismo", "Kuhn", "paradigma", "revolução científica", "argumento", "silogismo"]
+  }
+]

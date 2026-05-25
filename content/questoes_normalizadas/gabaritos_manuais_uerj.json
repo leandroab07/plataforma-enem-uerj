@@ -1,0 +1,1153 @@
+{
+  "2019_1º_exame_de_qualificacao": {
+    "ano": 2019,
+    "exame": "1º Exame de Qualificação",
+    "_instrucao": "Preencha 'gabarito' com A, B, C ou D para cada questão. Execute novamente 01b-enriquecer-gabaritos-uerj.py para aplicar.",
+    "questoes": {
+      "1": {
+        "gabarito": null
+      },
+      "2": {
+        "gabarito": null
+      },
+      "4": {
+        "gabarito": null
+      },
+      "5": {
+        "gabarito": null
+      },
+      "6": {
+        "gabarito": null
+      },
+      "7": {
+        "gabarito": null
+      },
+      "8": {
+        "gabarito": null
+      },
+      "9": {
+        "gabarito": null
+      },
+      "10": {
+        "gabarito": null
+      },
+      "11": {
+        "gabarito": null
+      },
+      "12": {
+        "gabarito": null
+      },
+      "13": {
+        "gabarito": null
+      },
+      "14": {
+        "gabarito": null
+      },
+      "15": {
+        "gabarito": null
+      },
+      "16": {
+        "gabarito": null
+      },
+      "18": {
+        "gabarito": null
+      },
+      "19": {
+        "gabarito": null
+      },
+      "20": {
+        "gabarito": null
+      },
+      "21": {
+        "gabarito": null
+      },
+      "22": {
+        "gabarito": null
+      },
+      "23": {
+        "gabarito": null
+      },
+      "24": {
+        "gabarito": null
+      },
+      "25": {
+        "gabarito": null
+      },
+      "26": {
+        "gabarito": null
+      },
+      "27": {
+        "gabarito": null
+      },
+      "28": {
+        "gabarito": null
+      },
+      "33": {
+        "gabarito": null
+      },
+      "34": {
+        "gabarito": null
+      },
+      "37": {
+        "gabarito": null
+      },
+      "38": {
+        "gabarito": null
+      },
+      "40": {
+        "gabarito": null
+      },
+      "42": {
+        "gabarito": null
+      },
+      "43": {
+        "gabarito": null
+      },
+      "44": {
+        "gabarito": null
+      },
+      "45": {
+        "gabarito": null
+      },
+      "46": {
+        "gabarito": null
+      },
+      "47": {
+        "gabarito": null
+      },
+      "48": {
+        "gabarito": null
+      },
+      "49": {
+        "gabarito": null
+      },
+      "50": {
+        "gabarito": null
+      },
+      "51": {
+        "gabarito": null
+      },
+      "52": {
+        "gabarito": null
+      },
+      "54": {
+        "gabarito": null
+      },
+      "55": {
+        "gabarito": null
+      },
+      "56": {
+        "gabarito": null
+      },
+      "57": {
+        "gabarito": null
+      },
+      "58": {
+        "gabarito": null
+      },
+      "59": {
+        "gabarito": null
+      },
+      "60": {
+        "gabarito": null
+      }
+    }
+  },
+  "2019_2º_exame_de_qualificacao": {
+    "ano": 2019,
+    "exame": "2º Exame de Qualificação",
+    "_instrucao": "Preencha 'gabarito' com A, B, C ou D para cada questão. Execute novamente 01b-enriquecer-gabaritos-uerj.py para aplicar.",
+    "questoes": {
+      "1": {
+        "gabarito": null
+      },
+      "2": {
+        "gabarito": null
+      },
+      "3": {
+        "gabarito": null
+      },
+      "4": {
+        "gabarito": null
+      },
+      "5": {
+        "gabarito": null
+      },
+      "6": {
+        "gabarito": null
+      },
+      "7": {
+        "gabarito": null
+      },
+      "8": {
+        "gabarito": null
+      },
+      "9": {
+        "gabarito": null
+      },
+      "10": {
+        "gabarito": null
+      },
+      "11": {
+        "gabarito": null
+      },
+      "12": {
+        "gabarito": null
+      },
+      "13": {
+        "gabarito": null
+      },
+      "14": {
+        "gabarito": null
+      },
+      "16": {
+        "gabarito": null
+      },
+      "17": {
+        "gabarito": null
+      },
+      "20": {
+        "gabarito": null
+      },
+      "21": {
+        "gabarito": null
+      },
+      "22": {
+        "gabarito": null
+      },
+      "23": {
+        "gabarito": null
+      },
+      "24": {
+        "gabarito": null
+      },
+      "25": {
+        "gabarito": null
+      },
+      "26": {
+        "gabarito": null
+      },
+      "27": {
+        "gabarito": null
+      },
+      "28": {
+        "gabarito": null
+      },
+      "29": {
+        "gabarito": null
+      },
+      "30": {
+        "gabarito": null
+      },
+      "32": {
+        "gabarito": null
+      },
+      "34": {
+        "gabarito": null
+      },
+      "35": {
+        "gabarito": null
+      },
+      "36": {
+        "gabarito": null
+      },
+      "37": {
+        "gabarito": null
+      },
+      "38": {
+        "gabarito": null
+      },
+      "39": {
+        "gabarito": null
+      },
+      "40": {
+        "gabarito": null
+      },
+      "41": {
+        "gabarito": null
+      },
+      "43": {
+        "gabarito": null
+      },
+      "44": {
+        "gabarito": null
+      },
+      "45": {
+        "gabarito": null
+      },
+      "46": {
+        "gabarito": null
+      },
+      "47": {
+        "gabarito": null
+      },
+      "48": {
+        "gabarito": null
+      },
+      "49": {
+        "gabarito": null
+      },
+      "50": {
+        "gabarito": null
+      },
+      "51": {
+        "gabarito": null
+      },
+      "52": {
+        "gabarito": null
+      },
+      "53": {
+        "gabarito": null
+      },
+      "54": {
+        "gabarito": null
+      },
+      "55": {
+        "gabarito": null
+      },
+      "56": {
+        "gabarito": null
+      },
+      "57": {
+        "gabarito": null
+      },
+      "58": {
+        "gabarito": null
+      },
+      "59": {
+        "gabarito": null
+      },
+      "60": {
+        "gabarito": null
+      }
+    }
+  },
+  "2018_1º_exame_de_qualificacao": {
+    "ano": 2018,
+    "exame": "1º Exame de Qualificação",
+    "_instrucao": "Preencha 'gabarito' com A, B, C ou D para cada questão. Execute novamente 01b-enriquecer-gabaritos-uerj.py para aplicar.",
+    "questoes": {
+      "1": {
+        "gabarito": null
+      },
+      "2": {
+        "gabarito": null
+      },
+      "3": {
+        "gabarito": null
+      },
+      "4": {
+        "gabarito": null
+      },
+      "5": {
+        "gabarito": null
+      },
+      "6": {
+        "gabarito": null
+      },
+      "7": {
+        "gabarito": null
+      },
+      "9": {
+        "gabarito": null
+      },
+      "10": {
+        "gabarito": null
+      },
+      "11": {
+        "gabarito": null
+      },
+      "12": {
+        "gabarito": null
+      },
+      "13": {
+        "gabarito": null
+      },
+      "14": {
+        "gabarito": null
+      },
+      "15": {
+        "gabarito": null
+      },
+      "16": {
+        "gabarito": null
+      },
+      "17": {
+        "gabarito": null
+      },
+      "18": {
+        "gabarito": null
+      },
+      "19": {
+        "gabarito": null
+      },
+      "20": {
+        "gabarito": null
+      },
+      "21": {
+        "gabarito": null
+      },
+      "22": {
+        "gabarito": null
+      },
+      "23": {
+        "gabarito": null
+      },
+      "24": {
+        "gabarito": null
+      },
+      "25": {
+        "gabarito": null
+      },
+      "26": {
+        "gabarito": null
+      },
+      "27": {
+        "gabarito": null
+      },
+      "28": {
+        "gabarito": null
+      },
+      "29": {
+        "gabarito": null
+      },
+      "30": {
+        "gabarito": null
+      },
+      "31": {
+        "gabarito": null
+      },
+      "32": {
+        "gabarito": null
+      },
+      "33": {
+        "gabarito": null
+      },
+      "34": {
+        "gabarito": null
+      },
+      "35": {
+        "gabarito": null
+      },
+      "36": {
+        "gabarito": null
+      },
+      "37": {
+        "gabarito": null
+      },
+      "38": {
+        "gabarito": null
+      },
+      "39": {
+        "gabarito": null
+      },
+      "40": {
+        "gabarito": null
+      },
+      "41": {
+        "gabarito": null
+      },
+      "42": {
+        "gabarito": null
+      },
+      "43": {
+        "gabarito": null
+      },
+      "44": {
+        "gabarito": null
+      },
+      "45": {
+        "gabarito": null
+      },
+      "46": {
+        "gabarito": null
+      },
+      "47": {
+        "gabarito": null
+      },
+      "49": {
+        "gabarito": null
+      },
+      "50": {
+        "gabarito": null
+      },
+      "51": {
+        "gabarito": null
+      },
+      "52": {
+        "gabarito": null
+      },
+      "53": {
+        "gabarito": null
+      },
+      "54": {
+        "gabarito": null
+      },
+      "55": {
+        "gabarito": null
+      },
+      "56": {
+        "gabarito": null
+      },
+      "57": {
+        "gabarito": null
+      },
+      "58": {
+        "gabarito": null
+      },
+      "59": {
+        "gabarito": null
+      },
+      "60": {
+        "gabarito": null
+      }
+    }
+  },
+  "2018_2º_exame_de_qualificacao": {
+    "ano": 2018,
+    "exame": "2º Exame de Qualificação",
+    "_instrucao": "Preencha 'gabarito' com A, B, C ou D para cada questão. Execute novamente 01b-enriquecer-gabaritos-uerj.py para aplicar.",
+    "questoes": {
+      "1": {
+        "gabarito": null
+      },
+      "2": {
+        "gabarito": null
+      },
+      "3": {
+        "gabarito": null
+      },
+      "4": {
+        "gabarito": null
+      },
+      "5": {
+        "gabarito": null
+      },
+      "6": {
+        "gabarito": null
+      },
+      "7": {
+        "gabarito": null
+      },
+      "8": {
+        "gabarito": null
+      },
+      "9": {
+        "gabarito": null
+      },
+      "10": {
+        "gabarito": null
+      },
+      "11": {
+        "gabarito": null
+      },
+      "12": {
+        "gabarito": null
+      },
+      "13": {
+        "gabarito": null
+      },
+      "14": {
+        "gabarito": null
+      },
+      "15": {
+        "gabarito": null
+      },
+      "16": {
+        "gabarito": null
+      },
+      "17": {
+        "gabarito": null
+      },
+      "18": {
+        "gabarito": null
+      },
+      "19": {
+        "gabarito": null
+      },
+      "20": {
+        "gabarito": null
+      },
+      "21": {
+        "gabarito": null
+      },
+      "22": {
+        "gabarito": null
+      },
+      "23": {
+        "gabarito": null
+      },
+      "24": {
+        "gabarito": null
+      },
+      "25": {
+        "gabarito": null
+      },
+      "26": {
+        "gabarito": null
+      },
+      "27": {
+        "gabarito": null
+      },
+      "28": {
+        "gabarito": null
+      },
+      "29": {
+        "gabarito": null
+      },
+      "30": {
+        "gabarito": null
+      },
+      "31": {
+        "gabarito": null
+      },
+      "32": {
+        "gabarito": null
+      },
+      "33": {
+        "gabarito": null
+      },
+      "34": {
+        "gabarito": null
+      },
+      "36": {
+        "gabarito": null
+      },
+      "37": {
+        "gabarito": null
+      },
+      "38": {
+        "gabarito": null
+      },
+      "39": {
+        "gabarito": null
+      },
+      "40": {
+        "gabarito": null
+      },
+      "41": {
+        "gabarito": null
+      },
+      "42": {
+        "gabarito": null
+      },
+      "43": {
+        "gabarito": null
+      },
+      "44": {
+        "gabarito": null
+      },
+      "45": {
+        "gabarito": null
+      },
+      "46": {
+        "gabarito": null
+      },
+      "47": {
+        "gabarito": null
+      },
+      "48": {
+        "gabarito": null
+      },
+      "49": {
+        "gabarito": null
+      },
+      "50": {
+        "gabarito": null
+      },
+      "51": {
+        "gabarito": null
+      },
+      "52": {
+        "gabarito": null
+      },
+      "54": {
+        "gabarito": null
+      },
+      "55": {
+        "gabarito": null
+      },
+      "56": {
+        "gabarito": null
+      },
+      "57": {
+        "gabarito": null
+      },
+      "58": {
+        "gabarito": null
+      },
+      "59": {
+        "gabarito": null
+      },
+      "60": {
+        "gabarito": null
+      }
+    }
+  },
+  "2017_2º_exame_de_qualificacao": {
+    "ano": 2017,
+    "exame": "2º Exame de Qualificação",
+    "_instrucao": "Preencha 'gabarito' com A, B, C ou D para cada questão. Execute novamente 01b-enriquecer-gabaritos-uerj.py para aplicar.",
+    "questoes": {
+      "1": {
+        "gabarito": null
+      },
+      "2": {
+        "gabarito": null
+      },
+      "3": {
+        "gabarito": null
+      },
+      "4": {
+        "gabarito": null
+      },
+      "5": {
+        "gabarito": null
+      },
+      "6": {
+        "gabarito": null
+      },
+      "7": {
+        "gabarito": null
+      },
+      "8": {
+        "gabarito": null
+      },
+      "9": {
+        "gabarito": null
+      },
+      "10": {
+        "gabarito": null
+      },
+      "11": {
+        "gabarito": null
+      },
+      "12": {
+        "gabarito": null
+      },
+      "13": {
+        "gabarito": null
+      },
+      "14": {
+        "gabarito": null
+      },
+      "15": {
+        "gabarito": null
+      },
+      "16": {
+        "gabarito": null
+      },
+      "17": {
+        "gabarito": null
+      },
+      "18": {
+        "gabarito": null
+      },
+      "19": {
+        "gabarito": null
+      },
+      "20": {
+        "gabarito": null
+      },
+      "21": {
+        "gabarito": null
+      },
+      "22": {
+        "gabarito": null
+      },
+      "23": {
+        "gabarito": null
+      },
+      "24": {
+        "gabarito": null
+      },
+      "25": {
+        "gabarito": null
+      },
+      "26": {
+        "gabarito": null
+      },
+      "27": {
+        "gabarito": null
+      },
+      "28": {
+        "gabarito": null
+      },
+      "29": {
+        "gabarito": null
+      },
+      "30": {
+        "gabarito": null
+      },
+      "31": {
+        "gabarito": null
+      },
+      "32": {
+        "gabarito": null
+      },
+      "34": {
+        "gabarito": null
+      },
+      "35": {
+        "gabarito": null
+      },
+      "36": {
+        "gabarito": null
+      },
+      "37": {
+        "gabarito": null
+      },
+      "38": {
+        "gabarito": null
+      },
+      "40": {
+        "gabarito": null
+      },
+      "41": {
+        "gabarito": null
+      },
+      "42": {
+        "gabarito": null
+      },
+      "43": {
+        "gabarito": null
+      },
+      "44": {
+        "gabarito": null
+      },
+      "45": {
+        "gabarito": null
+      },
+      "46": {
+        "gabarito": null
+      },
+      "47": {
+        "gabarito": null
+      },
+      "48": {
+        "gabarito": null
+      },
+      "49": {
+        "gabarito": null
+      },
+      "51": {
+        "gabarito": null
+      },
+      "53": {
+        "gabarito": null
+      },
+      "54": {
+        "gabarito": null
+      },
+      "55": {
+        "gabarito": null
+      },
+      "56": {
+        "gabarito": null
+      },
+      "59": {
+        "gabarito": null
+      },
+      "60": {
+        "gabarito": null
+      }
+    }
+  },
+  "2015_1º_exame_de_qualificacao": {
+    "ano": 2015,
+    "exame": "1º Exame de Qualificação",
+    "_instrucao": "Preencha 'gabarito' com A, B, C ou D para cada questão. Execute novamente 01b-enriquecer-gabaritos-uerj.py para aplicar.",
+    "questoes": {
+      "24": {
+        "gabarito": null
+      }
+    }
+  },
+  "2014_1º_exame_de_qualificacao": {
+    "ano": 2014,
+    "exame": "1º Exame de Qualificação",
+    "_instrucao": "Preencha 'gabarito' com A, B, C ou D para cada questão. Execute novamente 01b-enriquecer-gabaritos-uerj.py para aplicar.",
+    "questoes": {
+      "1": {
+        "gabarito": null
+      },
+      "2": {
+        "gabarito": null
+      },
+      "3": {
+        "gabarito": null
+      },
+      "4": {
+        "gabarito": null
+      },
+      "5": {
+        "gabarito": null
+      },
+      "6": {
+        "gabarito": null
+      },
+      "7": {
+        "gabarito": null
+      },
+      "8": {
+        "gabarito": null
+      },
+      "10": {
+        "gabarito": null
+      },
+      "11": {
+        "gabarito": null
+      },
+      "12": {
+        "gabarito": null
+      },
+      "13": {
+        "gabarito": null
+      },
+      "14": {
+        "gabarito": null
+      },
+      "15": {
+        "gabarito": null
+      },
+      "17": {
+        "gabarito": null
+      },
+      "18": {
+        "gabarito": null
+      },
+      "19": {
+        "gabarito": null
+      },
+      "21": {
+        "gabarito": null
+      },
+      "22": {
+        "gabarito": null
+      },
+      "25": {
+        "gabarito": null
+      },
+      "26": {
+        "gabarito": null
+      },
+      "27": {
+        "gabarito": null
+      },
+      "30": {
+        "gabarito": null
+      },
+      "32": {
+        "gabarito": null
+      },
+      "33": {
+        "gabarito": null
+      },
+      "34": {
+        "gabarito": null
+      },
+      "35": {
+        "gabarito": null
+      },
+      "37": {
+        "gabarito": null
+      },
+      "38": {
+        "gabarito": null
+      },
+      "39": {
+        "gabarito": null
+      },
+      "41": {
+        "gabarito": null
+      },
+      "42": {
+        "gabarito": null
+      },
+      "44": {
+        "gabarito": null
+      },
+      "45": {
+        "gabarito": null
+      },
+      "46": {
+        "gabarito": null
+      },
+      "47": {
+        "gabarito": null
+      },
+      "49": {
+        "gabarito": null
+      },
+      "52": {
+        "gabarito": null
+      },
+      "53": {
+        "gabarito": null
+      },
+      "54": {
+        "gabarito": null
+      },
+      "55": {
+        "gabarito": null
+      },
+      "56": {
+        "gabarito": null
+      },
+      "57": {
+        "gabarito": null
+      },
+      "58": {
+        "gabarito": null
+      },
+      "59": {
+        "gabarito": null
+      },
+      "60": {
+        "gabarito": null
+      }
+    }
+  },
+  "2014_2º_exame_de_qualificacao": {
+    "ano": 2014,
+    "exame": "2º Exame de Qualificação",
+    "_instrucao": "Preencha 'gabarito' com A, B, C ou D para cada questão. Execute novamente 01b-enriquecer-gabaritos-uerj.py para aplicar.",
+    "questoes": {
+      "1": {
+        "gabarito": null
+      },
+      "2": {
+        "gabarito": null
+      },
+      "3": {
+        "gabarito": null
+      },
+      "5": {
+        "gabarito": null
+      },
+      "6": {
+        "gabarito": null
+      },
+      "7": {
+        "gabarito": null
+      },
+      "8": {
+        "gabarito": null
+      },
+      "9": {
+        "gabarito": null
+      },
+      "10": {
+        "gabarito": null
+      },
+      "11": {
+        "gabarito": null
+      },
+      "12": {
+        "gabarito": null
+      },
+      "13": {
+        "gabarito": null
+      },
+      "14": {
+        "gabarito": null
+      },
+      "15": {
+        "gabarito": null
+      },
+      "16": {
+        "gabarito": null
+      },
+      "17": {
+        "gabarito": null
+      },
+      "18": {
+        "gabarito": null
+      },
+      "19": {
+        "gabarito": null
+      },
+      "21": {
+        "gabarito": null
+      },
+      "22": {
+        "gabarito": null
+      },
+      "23": {
+        "gabarito": null
+      },
+      "24": {
+        "gabarito": null
+      },
+      "25": {
+        "gabarito": null
+      },
+      "28": {
+        "gabarito": null
+      },
+      "29": {
+        "gabarito": null
+      },
+      "30": {
+        "gabarito": null
+      },
+      "31": {
+        "gabarito": null
+      },
+      "33": {
+        "gabarito": null
+      },
+      "37": {
+        "gabarito": null
+      },
+      "39": {
+        "gabarito": null
+      },
+      "41": {
+        "gabarito": null
+      },
+      "44": {
+        "gabarito": null
+      },
+      "45": {
+        "gabarito": null
+      },
+      "46": {
+        "gabarito": null
+      },
+      "47": {
+        "gabarito": null
+      },
+      "48": {
+        "gabarito": null
+      },
+      "49": {
+        "gabarito": null
+      },
+      "51": {
+        "gabarito": null
+      },
+      "52": {
+        "gabarito": null
+      },
+      "53": {
+        "gabarito": null
+      },
+      "54": {
+        "gabarito": null
+      },
+      "55": {
+        "gabarito": null
+      },
+      "57": {
+        "gabarito": null
+      },
+      "59": {
+        "gabarito": null
+      },
+      "60": {
+        "gabarito": null
+      }
+    }
+  }
+}

@@ -1,0 +1,3085 @@
+[
+  {
+    "id": "mat.numeros.reais",
+    "titulo": "Números Reais",
+    "descricao": "Conjuntos numéricos (N, Z, Q, R), irracionalidade, operações com radicais, potências e notação científica",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 1,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "conjunto numérico",
+      "número irracional",
+      "radical",
+      "potência",
+      "notação científica",
+      "múltiplo",
+      "divisor",
+      "mdc",
+      "mmc",
+      "fatoração"
+    ]
+  },
+  {
+    "id": "mat.algebra.expressoes",
+    "titulo": "Expressões e Polinômios Algébricos",
+    "descricao": "Expressões algébricas, produtos notáveis, fatoração de polinômios, divisão de polinômios, Teorema do Resto",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 1,
+    "pre_requisitos": [
+      "mat.numeros.reais"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "produto notável",
+      "fatoração",
+      "polinômio",
+      "Teorema do Resto",
+      "expressão algébrica",
+      "monômio",
+      "trinômio"
+    ]
+  },
+  {
+    "id": "mat.algebra.equacoes1",
+    "titulo": "Equações e Inequações de 1º Grau",
+    "descricao": "Equações lineares, inequações, sistemas de equações de 1º grau, problemas de proporcionalidade",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 1,
+    "pre_requisitos": [
+      "mat.numeros.reais"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "equação linear",
+      "inequação",
+      "sistema linear",
+      "proporcionalidade",
+      "regra de três",
+      "porcentagem",
+      "razão",
+      "proporção"
+    ]
+  },
+  {
+    "id": "mat.algebra.equacoes2",
+    "titulo": "Equações e Inequações de 2º Grau",
+    "descricao": "Equações quadráticas, fórmula de Bhaskara, relações de Girard, inequações do 2º grau, estudo do sinal",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "mat.algebra.equacoes1",
+      "mat.algebra.expressoes"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "equação quadrática",
+      "Bhaskara",
+      "discriminante",
+      "delta",
+      "raiz",
+      "coeficiente",
+      "soma das raízes",
+      "produto das raízes",
+      "inequação quadrática"
+    ]
+  },
+  {
+    "id": "mat.funcoes.conceito",
+    "titulo": "Funções: Conceito, Domínio e Imagem",
+    "descricao": "Definição de função, domínio, contradomínio, imagem, bijeção, injeção, sobrejeção, gráfico de função",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "mat.algebra.equacoes1"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "função",
+      "domínio",
+      "imagem",
+      "contradomínio",
+      "bijeção",
+      "injetora",
+      "sobrejetora",
+      "par ordenado",
+      "plano cartesiano"
+    ]
+  },
+  {
+    "id": "mat.funcoes.linear",
+    "titulo": "Funções Lineares e Afins",
+    "descricao": "Função de 1º grau, coeficientes angular e linear, gráfico de reta, zeros, crescimento e decrescimento",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "mat.funcoes.conceito"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "função linear",
+      "função afim",
+      "coeficiente angular",
+      "coeficiente linear",
+      "inclinação",
+      "reta",
+      "proporcionalidade direta"
+    ]
+  },
+  {
+    "id": "mat.funcoes.quadratica",
+    "titulo": "Funções Quadráticas",
+    "descricao": "Função do 2º grau, parábola, vértice, eixo de simetria, zeros, máximo e mínimo",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "mat.funcoes.linear",
+      "mat.algebra.equacoes2"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "função quadrática",
+      "parábola",
+      "vértice",
+      "eixo de simetria",
+      "máximo",
+      "mínimo",
+      "zero da função"
+    ]
+  },
+  {
+    "id": "mat.funcoes.exponencial",
+    "titulo": "Funções Exponenciais",
+    "descricao": "Função exponencial, propriedades das potências, crescimento e decrescimento exponencial, equações exponenciais",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "mat.funcoes.conceito",
+      "mat.numeros.reais"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "função exponencial",
+      "crescimento exponencial",
+      "decrescimento exponencial",
+      "base",
+      "expoente",
+      "equação exponencial",
+      "juros compostos"
+    ]
+  },
+  {
+    "id": "mat.funcoes.logaritmica",
+    "titulo": "Funções Logarítmicas",
+    "descricao": "Logaritmo, propriedades operatórias dos logaritmos, mudança de base, equações e inequações logarítmicas",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "mat.funcoes.exponencial"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "logaritmo",
+      "log",
+      "ln",
+      "propriedades logarítmicas",
+      "mudança de base",
+      "equação logarítmica",
+      "cologaritmo"
+    ]
+  },
+  {
+    "id": "mat.progressoes.pa",
+    "titulo": "Progressão Aritmética (PA)",
+    "descricao": "Sequências, progressão aritmética, termo geral, soma dos termos de uma PA",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "mat.funcoes.linear"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "progressão aritmética",
+      "PA",
+      "razão",
+      "termo geral",
+      "soma de PA",
+      "sequência aritmética"
+    ]
+  },
+  {
+    "id": "mat.progressoes.pg",
+    "titulo": "Progressão Geométrica (PG)",
+    "descricao": "Progressão geométrica, razão da PG, termo geral, soma dos termos de uma PG, PG infinita",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "mat.funcoes.exponencial"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "progressão geométrica",
+      "PG",
+      "razão geométrica",
+      "soma de PG",
+      "PG infinita",
+      "juros compostos"
+    ]
+  },
+  {
+    "id": "mat.trigonometria.triangulo",
+    "titulo": "Trigonometria no Triângulo",
+    "descricao": "Razões trigonométricas (sen, cos, tan), triângulo retângulo, Lei dos Senos, Lei dos Cossenos, ângulos notáveis",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "mat.numeros.reais",
+      "mat.geometria.plana.semelhanca"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "seno",
+      "cosseno",
+      "tangente",
+      "razão trigonométrica",
+      "triângulo retângulo",
+      "Lei dos Senos",
+      "Lei dos Cossenos",
+      "Pitágoras",
+      "ângulo notável",
+      "30°",
+      "45°",
+      "60°"
+    ]
+  },
+  {
+    "id": "mat.trigonometria.circulo",
+    "titulo": "Trigonometria no Círculo e Funções Trigonométricas",
+    "descricao": "Ciclo trigonométrico, redução ao 1º quadrante, identidades trigonométricas, funções seno, cosseno e tangente",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "mat.trigonometria.triangulo",
+      "mat.funcoes.conceito"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "ciclo trigonométrico",
+      "arco",
+      "radiano",
+      "identidade trigonométrica",
+      "função seno",
+      "função cosseno",
+      "período",
+      "amplitude"
+    ]
+  },
+  {
+    "id": "mat.geometria.plana.basico",
+    "titulo": "Geometria Plana: Ângulos, Retas e Polígonos",
+    "descricao": "Ângulos, retas paralelas e transversais, polígonos regulares, soma dos ângulos internos",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 1,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "ângulo",
+      "retas paralelas",
+      "transversal",
+      "polígono",
+      "triângulo",
+      "quadrilátero",
+      "ângulo interno",
+      "ângulo externo"
+    ]
+  },
+  {
+    "id": "mat.geometria.plana.semelhanca",
+    "titulo": "Semelhança de Triângulos",
+    "descricao": "Triângulos semelhantes, critérios de semelhança, Teorema de Tales, razão de semelhança",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "mat.geometria.plana.basico"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "semelhança de triângulos",
+      "Teorema de Tales",
+      "razão de semelhança",
+      "critério AA",
+      "critério LAL"
+    ]
+  },
+  {
+    "id": "mat.geometria.plana.areas",
+    "titulo": "Geometria Plana: Áreas e Perímetros",
+    "descricao": "Áreas de triângulos, quadriláteros e polígonos regulares; perímetros; relações métricas no triângulo",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "mat.geometria.plana.basico",
+      "mat.trigonometria.triangulo"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "área",
+      "perímetro",
+      "triângulo",
+      "retângulo",
+      "trapézio",
+      "losango",
+      "hexágono",
+      "relações métricas"
+    ]
+  },
+  {
+    "id": "mat.geometria.plana.circunferencia",
+    "titulo": "Circunferência e Círculo",
+    "descricao": "Circunferência, círculo, arco, corda, tangente, inscrito/circunscrito, comprimento e área",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "mat.geometria.plana.areas"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "circunferência",
+      "círculo",
+      "raio",
+      "diâmetro",
+      "arco",
+      "corda",
+      "tangente",
+      "pi",
+      "setor circular",
+      "ângulo central",
+      "ângulo inscrito"
+    ]
+  },
+  {
+    "id": "mat.geometria.espacial",
+    "titulo": "Geometria Espacial: Sólidos Geométricos",
+    "descricao": "Prismas, pirâmides, cilindros, cones, esferas: volume, área total e área lateral",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "mat.geometria.plana.areas",
+      "mat.trigonometria.triangulo"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "prisma",
+      "pirâmide",
+      "cilindro",
+      "cone",
+      "esfera",
+      "volume",
+      "área total",
+      "área lateral",
+      "planificação",
+      "Teorema de Euler"
+    ]
+  },
+  {
+    "id": "mat.geometria.analitica.reta",
+    "titulo": "Geometria Analítica: Ponto e Reta",
+    "descricao": "Plano cartesiano, distância entre pontos, equação da reta, ponto médio, inclinação, retas paralelas e perpendiculares",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "mat.funcoes.linear",
+      "mat.trigonometria.triangulo"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "geometria analítica",
+      "plano cartesiano",
+      "distância entre pontos",
+      "equação da reta",
+      "coeficiente angular",
+      "ponto médio",
+      "retas perpendiculares"
+    ]
+  },
+  {
+    "id": "mat.geometria.analitica.circunferencia",
+    "titulo": "Geometria Analítica: Circunferência",
+    "descricao": "Equação da circunferência, posições relativas ponto-circunferência e reta-circunferência",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "mat.geometria.analitica.reta",
+      "mat.geometria.plana.circunferencia"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "equação da circunferência",
+      "centro",
+      "raio",
+      "distância ponto-reta",
+      "tangente à circunferência",
+      "posição relativa"
+    ]
+  },
+  {
+    "id": "mat.combinatoria",
+    "titulo": "Análise Combinatória",
+    "descricao": "Princípio Fundamental da Contagem, permutação, arranjo, combinação, Triângulo de Pascal, Binômio de Newton",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "mat.numeros.reais"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "combinatória",
+      "permutação",
+      "arranjo",
+      "combinação",
+      "fatorial",
+      "Princípio Fundamental da Contagem",
+      "Binômio de Newton",
+      "Triângulo de Pascal"
+    ]
+  },
+  {
+    "id": "mat.probabilidade",
+    "titulo": "Probabilidade",
+    "descricao": "Espaço amostral, eventos, probabilidade clássica, probabilidade condicional, eventos independentes, Teorema de Bayes",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "mat.combinatoria"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "probabilidade",
+      "espaço amostral",
+      "evento",
+      "probabilidade clássica",
+      "probabilidade condicional",
+      "evento independente",
+      "Teorema de Bayes"
+    ]
+  },
+  {
+    "id": "mat.estatistica",
+    "titulo": "Estatística",
+    "descricao": "Dados estatísticos, tabelas e gráficos, médias (aritmética, ponderada, geométrica), mediana, moda, desvio padrão, variância",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "mat.numeros.reais"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "estatística",
+      "média aritmética",
+      "média ponderada",
+      "mediana",
+      "moda",
+      "desvio padrão",
+      "variância",
+      "gráfico",
+      "tabela",
+      "quartil"
+    ]
+  },
+  {
+    "id": "mat.financeira",
+    "titulo": "Matemática Financeira",
+    "descricao": "Juros simples, juros compostos, desconto, prestações, taxa de juros, índices",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "mat.funcoes.exponencial",
+      "mat.algebra.equacoes1"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "juros simples",
+      "juros compostos",
+      "desconto",
+      "capital",
+      "montante",
+      "taxa de juros",
+      "amortização",
+      "financiamento"
+    ]
+  },
+  {
+    "id": "mat.matrizes",
+    "titulo": "Matrizes e Determinantes",
+    "descricao": "Matrizes, operações matriciais, determinantes, sistemas lineares via Cramer e escalonamento",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "mat.algebra.sistemas"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "matriz",
+      "determinante",
+      "sistema linear",
+      "Regra de Cramer",
+      "escalonamento",
+      "transposta",
+      "inversa"
+    ]
+  },
+  {
+    "id": "mat.algebra.sistemas",
+    "titulo": "Sistemas de Equações",
+    "descricao": "Sistemas de equações lineares e não-lineares de 2 e 3 variáveis, classificação e métodos de resolução",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "mat.algebra.equacoes2"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "sistema de equações",
+      "sistema linear",
+      "substituição",
+      "adição",
+      "determinado",
+      "impossível",
+      "indeterminado"
+    ]
+  },
+  {
+    "id": "mat.funcoes.compostas",
+    "titulo": "Funções Compostas e Inversas",
+    "descricao": "Composição de funções (fog), função inversa, propriedades, domínio da composta",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "mat.funcoes.conceito"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "função composta",
+      "composição",
+      "fog",
+      "função inversa",
+      "bijeção",
+      "injetora"
+    ]
+  },
+  {
+    "id": "mat.numeros.complexos",
+    "titulo": "Números Complexos",
+    "descricao": "Unidade imaginária, forma algébrica, operações, módulo, argumento, forma trigonométrica, raízes de equações",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 4,
+    "pre_requisitos": [
+      "mat.algebra.equacoes2",
+      "mat.trigonometria.circulo"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "número complexo",
+      "unidade imaginária",
+      "parte real",
+      "parte imaginária",
+      "módulo",
+      "argumento",
+      "forma polar",
+      "conjugado"
+    ]
+  },
+  {
+    "id": "mat.geometria.analitica.conicas",
+    "titulo": "Cônicas",
+    "descricao": "Elipse, hipérbole, parábola: definição, focos, equação e propriedades",
+    "area": "matematica",
+    "disciplina": "matematica",
+    "nivel": 4,
+    "pre_requisitos": [
+      "mat.geometria.analitica.circunferencia"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "cônica",
+      "elipse",
+      "hipérbole",
+      "parábola",
+      "foco",
+      "excentricidade",
+      "diretriz",
+      "vértice"
+    ]
+  },
+  {
+    "id": "fis.mecanica.cinematica",
+    "titulo": "Cinemática",
+    "descricao": "Movimento retilíneo uniforme e uniformemente variado, queda livre, lançamento de projéteis, gráficos de movimento",
+    "area": "ciencias-natureza",
+    "disciplina": "fisica",
+    "nivel": 1,
+    "pre_requisitos": [
+      "mat.funcoes.quadratica"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "cinemática",
+      "movimento",
+      "velocidade",
+      "aceleração",
+      "MRU",
+      "MRUV",
+      "queda livre",
+      "lançamento horizontal",
+      "lançamento oblíquo",
+      "gráfico posição-tempo"
+    ]
+  },
+  {
+    "id": "fis.mecanica.dinamica",
+    "titulo": "Dinâmica: Leis de Newton e Aplicações",
+    "descricao": "Leis de Newton, força, massa, atrito, plano inclinado, força centrípeta, dinâmica de sistemas",
+    "area": "ciencias-natureza",
+    "disciplina": "fisica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "fis.mecanica.cinematica"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "Lei de Newton",
+      "força",
+      "inércia",
+      "atrito",
+      "plano inclinado",
+      "força normal",
+      "força centrípeta",
+      "força centrífuga",
+      "dinamômetro"
+    ]
+  },
+  {
+    "id": "fis.mecanica.energia",
+    "titulo": "Energia, Trabalho e Potência",
+    "descricao": "Trabalho de uma força, energia cinética, energia potencial gravitacional e elástica, conservação de energia, potência, rendimento",
+    "area": "ciencias-natureza",
+    "disciplina": "fisica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "fis.mecanica.dinamica"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "trabalho",
+      "energia cinética",
+      "energia potencial",
+      "conservação de energia",
+      "potência",
+      "rendimento",
+      "mola",
+      "constante elástica",
+      "Teorema trabalho-energia"
+    ]
+  },
+  {
+    "id": "fis.mecanica.impulso",
+    "titulo": "Quantidade de Movimento e Impulso",
+    "descricao": "Quantidade de movimento, impulso, conservação do momento linear, colisões elásticas e inelásticas",
+    "area": "ciencias-natureza",
+    "disciplina": "fisica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "fis.mecanica.dinamica"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "quantidade de movimento",
+      "momento linear",
+      "impulso",
+      "conservação do momento",
+      "colisão",
+      "coeficiente de restituição",
+      "centro de massa"
+    ]
+  },
+  {
+    "id": "fis.mecanica.rotacao",
+    "titulo": "Estática e Dinâmica de Rotação",
+    "descricao": "Torque, equilíbrio estático, centro de massa, momento de inércia, momento angular",
+    "area": "ciencias-natureza",
+    "disciplina": "fisica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "fis.mecanica.dinamica"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "torque",
+      "momento de força",
+      "equilíbrio estático",
+      "centro de gravidade",
+      "alavanca",
+      "momento de inércia"
+    ]
+  },
+  {
+    "id": "fis.mecanica.gravitacao",
+    "titulo": "Gravitação Universal",
+    "descricao": "Lei da Gravitação Universal de Newton, campo gravitacional, satélites, órbitas, Leis de Kepler",
+    "area": "ciencias-natureza",
+    "disciplina": "fisica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "fis.mecanica.dinamica"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "gravitação",
+      "Lei de Newton da gravitação",
+      "campo gravitacional",
+      "satélite",
+      "órbita",
+      "Leis de Kepler",
+      "velocidade de escape"
+    ]
+  },
+  {
+    "id": "fis.fluidos",
+    "titulo": "Fluidos: Hidrostática e Hidrodinâmica",
+    "descricao": "Pressão, densidade, Princípio de Arquimedes, empuxo, Princípio de Pascal, Equação de Bernoulli, vasos comunicantes",
+    "area": "ciencias-natureza",
+    "disciplina": "fisica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "fis.mecanica.dinamica"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "pressão",
+      "densidade",
+      "empuxo",
+      "Arquimedes",
+      "Pascal",
+      "Bernoulli",
+      "fluido",
+      "vasos comunicantes",
+      "coluna de líquido"
+    ]
+  },
+  {
+    "id": "fis.termodinamica.temperatura",
+    "titulo": "Temperatura, Calor e Calorimetria",
+    "descricao": "Temperatura, escalas termométricas, calor, calor específico, capacidade calorífica, mudanças de fase, calorimetria",
+    "area": "ciencias-natureza",
+    "disciplina": "fisica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "mat.algebra.equacoes1"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "temperatura",
+      "Celsius",
+      "Kelvin",
+      "Fahrenheit",
+      "calor",
+      "calor específico",
+      "capacidade térmica",
+      "fusão",
+      "vaporização",
+      "calor latente",
+      "calorimetria"
+    ]
+  },
+  {
+    "id": "fis.termodinamica.dilatacao",
+    "titulo": "Dilatação Térmica",
+    "descricao": "Dilatação linear, superficial e volumétrica de sólidos e líquidos; anomalia da água",
+    "area": "ciencias-natureza",
+    "disciplina": "fisica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "fis.termodinamica.temperatura"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "dilatação térmica",
+      "coeficiente de dilatação",
+      "dilatação linear",
+      "dilatação volumétrica",
+      "anomalia da água"
+    ]
+  },
+  {
+    "id": "fis.termodinamica.gases",
+    "titulo": "Gases e Transformações Gasosas",
+    "descricao": "Teoria cinética dos gases, Leis de Boyle, Charles e Gay-Lussac, Lei dos Gases Ideais, pressão e temperatura",
+    "area": "ciencias-natureza",
+    "disciplina": "fisica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "fis.termodinamica.temperatura"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "gás ideal",
+      "Lei de Boyle",
+      "Lei de Charles",
+      "Gay-Lussac",
+      "isotérmica",
+      "isobárica",
+      "isocórica",
+      "pressão",
+      "volume",
+      "temperatura absoluta"
+    ]
+  },
+  {
+    "id": "fis.termodinamica.leis",
+    "titulo": "Leis da Termodinâmica",
+    "descricao": "Trabalho em sistemas gasosos, 1ª e 2ª Leis da Termodinâmica, máquinas térmicas, ciclo de Carnot, entropia",
+    "area": "ciencias-natureza",
+    "disciplina": "fisica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "fis.termodinamica.gases"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "termodinâmica",
+      "1ª Lei",
+      "2ª Lei",
+      "máquina térmica",
+      "rendimento",
+      "ciclo de Carnot",
+      "entropia",
+      "trabalho termodinâmico",
+      "energia interna"
+    ]
+  },
+  {
+    "id": "fis.ondas.mecanicas",
+    "titulo": "Ondas Mecânicas e Acústica",
+    "descricao": "Ondas transversais e longitudinais, comprimento de onda, frequência, período, velocidade, ressonância, Efeito Doppler, intensidade sonora",
+    "area": "ciencias-natureza",
+    "disciplina": "fisica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "mat.funcoes.conceito"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "onda",
+      "comprimento de onda",
+      "frequência",
+      "período",
+      "velocidade de propagação",
+      "som",
+      "intensidade sonora",
+      "Efeito Doppler",
+      "reflexão",
+      "refração de ondas"
+    ]
+  },
+  {
+    "id": "fis.ondas.luz",
+    "titulo": "Óptica Geométrica",
+    "descricao": "Raios de luz, reflexão, refração, lentes, espelhos, formação de imagens, olho humano e instrumentos ópticos",
+    "area": "ciencias-natureza",
+    "disciplina": "fisica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "mat.trigonometria.triangulo"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "óptica",
+      "reflexão",
+      "refração",
+      "lente",
+      "espelho",
+      "convergente",
+      "divergente",
+      "foco",
+      "imagem",
+      "índice de refração",
+      "ângulo crítico",
+      "reflexão total"
+    ]
+  },
+  {
+    "id": "fis.eletricidade.eletrostatica",
+    "titulo": "Eletrostática",
+    "descricao": "Carga elétrica, Lei de Coulomb, campo elétrico, potencial elétrico, capacitores, energia eletrostática",
+    "area": "ciencias-natureza",
+    "disciplina": "fisica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "fis.mecanica.dinamica"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "carga elétrica",
+      "Lei de Coulomb",
+      "campo elétrico",
+      "potencial elétrico",
+      "capacitor",
+      "condutor",
+      "isolante",
+      "blindagem eletrostática",
+      "dielétrico"
+    ]
+  },
+  {
+    "id": "fis.eletricidade.corrente",
+    "titulo": "Eletrodinâmica: Circuitos Elétricos",
+    "descricao": "Corrente elétrica, resistência, Lei de Ohm, associação de resistores, potência elétrica, geradores e receptores",
+    "area": "ciencias-natureza",
+    "disciplina": "fisica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "fis.eletricidade.eletrostatica"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "corrente elétrica",
+      "resistência",
+      "Lei de Ohm",
+      "associação de resistores",
+      "série",
+      "paralelo",
+      "potência elétrica",
+      "gerador",
+      "ddp",
+      "tensão"
+    ]
+  },
+  {
+    "id": "fis.eletricidade.magnetismo",
+    "titulo": "Magnetismo e Eletromagnetismo",
+    "descricao": "Campo magnético, força magnética sobre cargas e correntes, Lei de Ampère, solenoides",
+    "area": "ciencias-natureza",
+    "disciplina": "fisica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "fis.eletricidade.corrente"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "campo magnético",
+      "força de Lorentz",
+      "força magnética",
+      "ímã",
+      "polo",
+      "solenóide",
+      "lei de Biot-Savart",
+      "Lei de Ampère"
+    ]
+  },
+  {
+    "id": "fis.eletricidade.inducao",
+    "titulo": "Indução Eletromagnética",
+    "descricao": "Fluxo magnético, Lei de Faraday, Lei de Lenz, transformadores, corrente alternada, geradores",
+    "area": "ciencias-natureza",
+    "disciplina": "fisica",
+    "nivel": 4,
+    "pre_requisitos": [
+      "fis.eletricidade.magnetismo"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "indução eletromagnética",
+      "Lei de Faraday",
+      "Lei de Lenz",
+      "fluxo magnético",
+      "transformador",
+      "corrente alternada",
+      "gerador"
+    ]
+  },
+  {
+    "id": "fis.moderna",
+    "titulo": "Física Moderna e Nuclear",
+    "descricao": "Dualidade onda-partícula, efeito fotoelétrico, modelo atômico de Bohr, radioatividade, fissão e fusão nuclear",
+    "area": "ciencias-natureza",
+    "disciplina": "fisica",
+    "nivel": 4,
+    "pre_requisitos": [
+      "fis.ondas.luz",
+      "fis.eletricidade.eletrostatica"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "física moderna",
+      "efeito fotoelétrico",
+      "fóton",
+      "dualidade onda-partícula",
+      "modelo de Bohr",
+      "radioatividade",
+      "meia-vida",
+      "fissão nuclear",
+      "fusão nuclear",
+      "relatividade"
+    ]
+  },
+  {
+    "id": "qui.estrutura.atomica",
+    "titulo": "Estrutura Atômica e Tabela Periódica",
+    "descricao": "Partículas subatômicas, modelos atômicos, número atômico e de massa, isótopos, distribuição eletrônica, Tabela Periódica e propriedades periódicas",
+    "area": "ciencias-natureza",
+    "disciplina": "quimica",
+    "nivel": 1,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "átomo",
+      "próton",
+      "nêutron",
+      "elétron",
+      "número atômico",
+      "número de massa",
+      "isótopo",
+      "isoiônico",
+      "distribuição eletrônica",
+      "Tabela Periódica",
+      "eletronegatividade",
+      "eletropositividade",
+      "raio atômico"
+    ]
+  },
+  {
+    "id": "qui.ligacoes",
+    "titulo": "Ligações Químicas",
+    "descricao": "Ligações iônica, covalente e metálica; regra do octeto; polaridade; eletronegatividade; ligações intermoleculares (van der Waals, hidrogênio)",
+    "area": "ciencias-natureza",
+    "disciplina": "quimica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "qui.estrutura.atomica"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "ligação iônica",
+      "ligação covalente",
+      "ligação metálica",
+      "regra do octeto",
+      "polaridade",
+      "dipolo",
+      "ligação de hidrogênio",
+      "Van der Waals",
+      "covalente dativa"
+    ]
+  },
+  {
+    "id": "qui.geometria",
+    "titulo": "Geometria Molecular e Forças Intermoleculares",
+    "descricao": "Teoria VSEPR, geometria molecular (linear, angular, piramidal, tetraédrica), polaridade da molécula",
+    "area": "ciencias-natureza",
+    "disciplina": "quimica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "qui.ligacoes"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "geometria molecular",
+      "VSEPR",
+      "linear",
+      "angular",
+      "piramidal",
+      "tetraédrica",
+      "polar",
+      "apolar",
+      "molécula"
+    ]
+  },
+  {
+    "id": "qui.estequiometria",
+    "titulo": "Estequiometria",
+    "descricao": "Mol, Número de Avogadro, massa molar, fórmula mínima e molecular, cálculos estequiométricos, reagente limitante, pureza e rendimento",
+    "area": "ciencias-natureza",
+    "disciplina": "quimica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "qui.reacoes.tipos",
+      "mat.algebra.equacoes1"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "mol",
+      "Avogadro",
+      "massa molar",
+      "fórmula mínima",
+      "fórmula molecular",
+      "reagente limitante",
+      "pureza",
+      "rendimento",
+      "estequiometria",
+      "proporção molar"
+    ]
+  },
+  {
+    "id": "qui.reacoes.tipos",
+    "titulo": "Tipos de Reações Inorgânicas",
+    "descricao": "Reações de síntese, análise, simples troca, dupla troca (neutralização, precipitação), nomenclatura de compostos inorgânicos",
+    "area": "ciencias-natureza",
+    "disciplina": "quimica",
+    "nivel": 1,
+    "pre_requisitos": [
+      "qui.estrutura.atomica"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "reação de síntese",
+      "análise",
+      "simples troca",
+      "dupla troca",
+      "precipitação",
+      "neutralização",
+      "nomenclatura inorgânica",
+      "composto iônico"
+    ]
+  },
+  {
+    "id": "qui.acidos_bases",
+    "titulo": "Ácidos, Bases, pH e Soluções Tampão",
+    "descricao": "Teorias ácido-base (Arrhenius, Brønsted-Lowry), pH, pOH, indicadores, soluções tampão, hidrólise salina",
+    "area": "ciencias-natureza",
+    "disciplina": "quimica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "qui.reacoes.tipos",
+      "mat.funcoes.logaritmica"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "ácido",
+      "base",
+      "pH",
+      "pOH",
+      "indicador",
+      "neutralização",
+      "solução tampão",
+      "hidrólise salina",
+      "Arrhenius",
+      "Brønsted-Lowry",
+      "anfótero"
+    ]
+  },
+  {
+    "id": "qui.solucoes",
+    "titulo": "Soluções e Propriedades Coligativas",
+    "descricao": "Concentração molar e em g/L, diluição, mistura de soluções, propriedades coligativas (tonoscopia, ebulioscopia, crioscopia, osmoscopia)",
+    "area": "ciencias-natureza",
+    "disciplina": "quimica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "qui.estequiometria"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "solução",
+      "concentração",
+      "molaridade",
+      "diluição",
+      "propriedade coligativa",
+      "osmose",
+      "pressão osmótica",
+      "ponto de ebulição",
+      "ponto de fusão",
+      "tonoscopia",
+      "ebulioscopia",
+      "crioscopia"
+    ]
+  },
+  {
+    "id": "qui.oxirreducao",
+    "titulo": "Reações de Oxidação-Redução",
+    "descricao": "Número de oxidação (NOX), oxidação e redução, oxidante e redutor, balanceamento redox",
+    "area": "ciencias-natureza",
+    "disciplina": "quimica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "qui.reacoes.tipos"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "oxirredução",
+      "oxidação",
+      "redução",
+      "número de oxidação",
+      "NOX",
+      "oxidante",
+      "redutor",
+      "balanceamento redox",
+      "reação redox"
+    ]
+  },
+  {
+    "id": "qui.eletroquimica",
+    "titulo": "Eletroquímica",
+    "descricao": "Pilhas e baterias (células galvânicas), eletrólise, potencial padrão de redução, Lei de Faraday",
+    "area": "ciencias-natureza",
+    "disciplina": "quimica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "qui.oxirreducao",
+      "fis.eletricidade.corrente"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "pilha",
+      "bateria",
+      "eletrólise",
+      "eletrodo",
+      "ânodo",
+      "cátodo",
+      "potencial de redução",
+      "Lei de Faraday",
+      "célula galvânica"
+    ]
+  },
+  {
+    "id": "qui.cinetica",
+    "titulo": "Cinética Química",
+    "descricao": "Velocidade de reação, fatores que influenciam (temperatura, concentração, catalisador, superfície de contato), teoria das colisões",
+    "area": "ciencias-natureza",
+    "disciplina": "quimica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "qui.reacoes.tipos"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "cinética",
+      "velocidade de reação",
+      "catalisador",
+      "temperatura",
+      "concentração",
+      "energia de ativação",
+      "teoria das colisões",
+      "ordem de reação"
+    ]
+  },
+  {
+    "id": "qui.equilibrio",
+    "titulo": "Equilíbrio Químico",
+    "descricao": "Constante de equilíbrio (Kc, Kp), Princípio de Le Chatelier, produto de solubilidade (Kps), equilíbrio em solução aquosa",
+    "area": "ciencias-natureza",
+    "disciplina": "quimica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "qui.cinetica",
+      "qui.acidos_bases"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "equilíbrio químico",
+      "constante de equilíbrio",
+      "Kc",
+      "Kp",
+      "Le Chatelier",
+      "produto de solubilidade",
+      "Kps",
+      "deslocamento de equilíbrio"
+    ]
+  },
+  {
+    "id": "qui.termodinamica",
+    "titulo": "Termoquímica",
+    "descricao": "Entalpia, Lei de Hess, energia de ligação, entalpia de formação, combustão e neutralização, calor de reação",
+    "area": "ciencias-natureza",
+    "disciplina": "quimica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "qui.reacoes.tipos",
+      "fis.termodinamica.temperatura"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "entalpia",
+      "Lei de Hess",
+      "energia de ligação",
+      "calor de formação",
+      "calor de combustão",
+      "exotérmica",
+      "endotérmica",
+      "diagrama de energia"
+    ]
+  },
+  {
+    "id": "qui.organica.basico",
+    "titulo": "Química Orgânica: Nomenclatura e Funções",
+    "descricao": "Cadeias carbônicas, hidrocarbonetos, funções orgânicas (álcool, aldeído, cetona, ácido carboxílico, éster, amina, amida), nomenclatura IUPAC",
+    "area": "ciencias-natureza",
+    "disciplina": "quimica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "qui.ligacoes"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "orgânica",
+      "carbono",
+      "hidrocarboneto",
+      "alcano",
+      "alceno",
+      "alcino",
+      "álcool",
+      "aldeído",
+      "cetona",
+      "ácido carboxílico",
+      "éster",
+      "amina",
+      "nomenclatura IUPAC",
+      "isomeria"
+    ]
+  },
+  {
+    "id": "qui.organica.isomeria",
+    "titulo": "Isomeria Orgânica",
+    "descricao": "Isomeria constitucional (cadeia, posição, função, metameria, tautomeria) e espacial (geométrica cis-trans, óptica)",
+    "area": "ciencias-natureza",
+    "disciplina": "quimica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "qui.organica.basico"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "isomeria",
+      "isômero",
+      "isomeria de cadeia",
+      "isomeria de posição",
+      "isomeria geométrica",
+      "cis-trans",
+      "isomeria óptica",
+      "quiral",
+      "enantiômero"
+    ]
+  },
+  {
+    "id": "qui.organica.reacoes",
+    "titulo": "Reações Orgânicas",
+    "descricao": "Adição, eliminação, substituição, oxidação-redução, esterificação, saponificação, polimerização",
+    "area": "ciencias-natureza",
+    "disciplina": "quimica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "qui.organica.basico",
+      "qui.oxirreducao"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "adição",
+      "eliminação",
+      "substituição",
+      "esterificação",
+      "saponificação",
+      "polimerização",
+      "halogenação",
+      "combustão",
+      "fermentação"
+    ]
+  },
+  {
+    "id": "qui.organica.polimeros",
+    "titulo": "Polímeros e Bioquímica",
+    "descricao": "Polímeros naturais e sintéticos, plásticos, borracha, carboidratos, lipídios, proteínas, ácidos nucleicos",
+    "area": "ciencias-natureza",
+    "disciplina": "quimica",
+    "nivel": 3,
+    "pre_requisitos": [
+      "qui.organica.reacoes"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "polímero",
+      "plástico",
+      "borracha",
+      "nylon",
+      "carboidrato",
+      "lipídio",
+      "proteína",
+      "aminoácido",
+      "DNA",
+      "RNA",
+      "sacarose",
+      "glicose"
+    ]
+  },
+  {
+    "id": "qui.ambiental",
+    "titulo": "Química Ambiental e Industrial",
+    "descricao": "Poluição do ar, água e solo; camada de ozônio; chuva ácida; metais pesados; agrotóxicos; combustíveis e petróleo; energia renovável",
+    "area": "ciencias-natureza",
+    "disciplina": "quimica",
+    "nivel": 2,
+    "pre_requisitos": [
+      "qui.reacoes.tipos"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "poluição",
+      "ozônio",
+      "chuva ácida",
+      "efeito estufa",
+      "petróleo",
+      "combustível",
+      "biocombustível",
+      "agrotóxico",
+      "reciclagem",
+      "tratamento de água"
+    ]
+  },
+  {
+    "id": "bio.celula.estrutura",
+    "titulo": "Citologia: Estrutura Celular",
+    "descricao": "Célula procariota e eucariota, organelas, membrana plasmática, núcleo, mitocôndria, cloroplasto, ribossomo, retículo endoplasmático",
+    "area": "ciencias-natureza",
+    "disciplina": "biologia",
+    "nivel": 1,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "célula",
+      "procariota",
+      "eucariota",
+      "organela",
+      "membrana plasmática",
+      "núcleo",
+      "mitocôndria",
+      "cloroplasto",
+      "ribossomo",
+      "vacúolo",
+      "lisossomo"
+    ]
+  },
+  {
+    "id": "bio.celula.membrana",
+    "titulo": "Membrana Plasmática e Transporte",
+    "descricao": "Estrutura da membrana (modelo mosaico fluido), transporte passivo (difusão, osmose) e ativo, endocitose, exocitose",
+    "area": "ciencias-natureza",
+    "disciplina": "biologia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "bio.celula.estrutura"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "membrana plasmática",
+      "bicamada lipídica",
+      "difusão",
+      "osmose",
+      "transporte ativo",
+      "bomba sódio-potássio",
+      "endocitose",
+      "fagocitose",
+      "pinocitose"
+    ]
+  },
+  {
+    "id": "bio.celula.metabolismo",
+    "titulo": "Metabolismo Celular: Fotossíntese e Respiração",
+    "descricao": "Fotossíntese (fase luminosa e ciclo de Calvin), respiração celular aeróbica (glicólise, ciclo de Krebs, cadeia respiratória), fermentação",
+    "area": "ciencias-natureza",
+    "disciplina": "biologia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "bio.celula.estrutura",
+      "qui.organica.basico"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "fotossíntese",
+      "respiração celular",
+      "ATP",
+      "cloroplasto",
+      "mitocôndria",
+      "glicólise",
+      "ciclo de Krebs",
+      "cadeia respiratória",
+      "fermentação",
+      "NADH",
+      "glicose"
+    ]
+  },
+  {
+    "id": "bio.celula.divisao",
+    "titulo": "Divisão Celular: Mitose e Meiose",
+    "descricao": "Ciclo celular, mitose (fases), meiose I e II, variação genética, espermatogênese e ovogênese",
+    "area": "ciencias-natureza",
+    "disciplina": "biologia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "bio.celula.estrutura"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "mitose",
+      "meiose",
+      "ciclo celular",
+      "prófase",
+      "metáfase",
+      "anáfase",
+      "telófase",
+      "cromossomo",
+      "cromatina",
+      "espermatogênese",
+      "ovogênese",
+      "ploidia"
+    ]
+  },
+  {
+    "id": "bio.genetica.mendeliana",
+    "titulo": "Genética Mendeliana",
+    "descricao": "Leis de Mendel, dominância, recessividade, segregação, distribuição independente, cruzamentos mono e dihíbridos, heredogramas, interações gênicas",
+    "area": "ciencias-natureza",
+    "disciplina": "biologia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "bio.celula.divisao"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "Mendel",
+      "dominante",
+      "recessivo",
+      "alelo",
+      "genótipo",
+      "fenótipo",
+      "homozigoto",
+      "heterozigoto",
+      "cruzamento",
+      "heredograma",
+      "epistasia",
+      "codominância"
+    ]
+  },
+  {
+    "id": "bio.genetica.cromossomica",
+    "titulo": "Genética Cromossômica e Ligação",
+    "descricao": "Cromossomos sexuais, herança ligada ao sexo, daltonismo, hemofilia, linkage, crossing-over, mutações cromossômicas",
+    "area": "ciencias-natureza",
+    "disciplina": "biologia",
+    "nivel": 3,
+    "pre_requisitos": [
+      "bio.genetica.mendeliana"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "herança ligada ao sexo",
+      "cromossomo X",
+      "cromossomo Y",
+      "daltonismo",
+      "hemofilia",
+      "crossing-over",
+      "linkage",
+      "síndrome de Down",
+      "trissomia",
+      "mutação cromossômica"
+    ]
+  },
+  {
+    "id": "bio.genetica.molecular",
+    "titulo": "Genética Molecular: DNA, RNA e Síntese Proteica",
+    "descricao": "Estrutura do DNA, replicação, transcrição, tradução, código genético, mutações gênicas, biotecnologia",
+    "area": "ciencias-natureza",
+    "disciplina": "biologia",
+    "nivel": 3,
+    "pre_requisitos": [
+      "bio.celula.divisao",
+      "qui.organica.polimeros"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "DNA",
+      "RNA",
+      "replicação",
+      "transcrição",
+      "tradução",
+      "ribossomo",
+      "código genético",
+      "codon",
+      "aminoácido",
+      "mutação",
+      "engenharia genética",
+      "PCR",
+      "CRISPR"
+    ]
+  },
+  {
+    "id": "bio.evolucao",
+    "titulo": "Evolução Biológica",
+    "descricao": "Teorias evolutivas (Lamarck, Darwin, neodarwinismo), seleção natural, deriva genética, especiação, evidências da evolução, filogenia",
+    "area": "ciencias-natureza",
+    "disciplina": "biologia",
+    "nivel": 3,
+    "pre_requisitos": [
+      "bio.genetica.molecular"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "evolução",
+      "Darwin",
+      "seleção natural",
+      "adaptação",
+      "especiação",
+      "deriva genética",
+      "isolamento reprodutivo",
+      "filogenia",
+      "cladística",
+      "homologia",
+      "analogia"
+    ]
+  },
+  {
+    "id": "bio.ecologia.basico",
+    "titulo": "Ecologia: Ecossistemas e Relações Ecológicas",
+    "descricao": "Ecossistema, cadeia alimentar, teia alimentar, níveis tróficos, fluxo de energia, ciclos biogeoquímicos, relações ecológicas inter e intraespecíficas",
+    "area": "ciencias-natureza",
+    "disciplina": "biologia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "bio.celula.metabolismo"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "ecossistema",
+      "cadeia alimentar",
+      "teia alimentar",
+      "produtor",
+      "consumidor",
+      "decompositor",
+      "nível trófico",
+      "ciclo do carbono",
+      "ciclo do nitrogênio",
+      "simbiose",
+      "parasitismo",
+      "predação",
+      "mutualismo"
+    ]
+  },
+  {
+    "id": "bio.ecologia.populacao",
+    "titulo": "Ecologia de Populações e Dinâmica Populacional",
+    "descricao": "Crescimento populacional, capacidade suporte, pirâmides etárias, curvas de sobrevivência, dinâmica de predador-presa",
+    "area": "ciencias-natureza",
+    "disciplina": "biologia",
+    "nivel": 3,
+    "pre_requisitos": [
+      "bio.ecologia.basico"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "população",
+      "crescimento exponencial",
+      "crescimento logístico",
+      "capacidade suporte",
+      "pirâmide etária",
+      "densidade populacional",
+      "predador",
+      "presa"
+    ]
+  },
+  {
+    "id": "bio.ecologia.biomas",
+    "titulo": "Biomas Brasileiros e Mundiais",
+    "descricao": "Floresta Amazônica, Cerrado, Caatinga, Mata Atlântica, Pampa, Pantanal; biomas mundiais (tundra, taiga, floresta tropical, deserto, savana)",
+    "area": "ciencias-natureza",
+    "disciplina": "biologia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "bio.ecologia.basico"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "bioma",
+      "Amazônia",
+      "Cerrado",
+      "Caatinga",
+      "Mata Atlântica",
+      "Pantanal",
+      "biodiversidade",
+      "endemismo",
+      "tundra",
+      "taiga",
+      "savana",
+      "deserto"
+    ]
+  },
+  {
+    "id": "bio.ecologia.ambiental",
+    "titulo": "Questões Ambientais e Conservação",
+    "descricao": "Impactos ambientais, desmatamento, poluição, aquecimento global, perda de biodiversidade, áreas de conservação, desenvolvimento sustentável",
+    "area": "ciencias-natureza",
+    "disciplina": "biologia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "bio.ecologia.biomas"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "desmatamento",
+      "poluição",
+      "aquecimento global",
+      "biodiversidade",
+      "extinção",
+      "sustentabilidade",
+      "reciclagem",
+      "área de proteção ambiental",
+      "espécie invasora"
+    ]
+  },
+  {
+    "id": "bio.botanica",
+    "titulo": "Botânica: Estrutura e Reprodução das Plantas",
+    "descricao": "Classificação das plantas (briófitas, pteridófitas, gimnospermas, angiospermas), estrutura vegetal, reprodução sexuada e assexuada, ciclo de vida",
+    "area": "ciencias-natureza",
+    "disciplina": "biologia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "bio.celula.divisao"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "briófita",
+      "pteridófita",
+      "gimnosperma",
+      "angiosperma",
+      "flor",
+      "fruto",
+      "semente",
+      "folha",
+      "raiz",
+      "caule",
+      "alternância de gerações",
+      "polinização"
+    ]
+  },
+  {
+    "id": "bio.zoologia",
+    "titulo": "Zoologia: Invertebrados e Vertebrados",
+    "descricao": "Classificação animal, poríferos, cnidários, platelmintos, nematódeos, anelídeos, moluscos, artrópodes, equinodermos; peixes, anfíbios, répteis, aves, mamíferos",
+    "area": "ciencias-natureza",
+    "disciplina": "biologia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "bio.celula.divisao"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "invertebrado",
+      "vertebrado",
+      "artrópode",
+      "inseto",
+      "crustáceo",
+      "molusco",
+      "verme",
+      "anfíbio",
+      "réptil",
+      "ave",
+      "mamífero",
+      "classificação animal"
+    ]
+  },
+  {
+    "id": "bio.anatomia.sistemas",
+    "titulo": "Fisiologia Humana: Sistemas",
+    "descricao": "Sistemas digestório, circulatório, respiratório, excretor, nervoso e endócrino: estrutura, função e integração",
+    "area": "ciencias-natureza",
+    "disciplina": "biologia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "bio.celula.metabolismo"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "digestão",
+      "circulação",
+      "coração",
+      "respiração",
+      "pulmão",
+      "excreção",
+      "rim",
+      "neurônio",
+      "sistema nervoso",
+      "hormônio",
+      "sistema endócrino",
+      "homeostase"
+    ]
+  },
+  {
+    "id": "bio.imunologia",
+    "titulo": "Imunologia e Saúde",
+    "descricao": "Sistema imunológico, imunidade inata e adaptativa, anticorpos, vacinação, doenças infecciosas (virais, bacterianas, parasitárias), AIDS, câncer",
+    "area": "ciencias-natureza",
+    "disciplina": "biologia",
+    "nivel": 3,
+    "pre_requisitos": [
+      "bio.celula.estrutura",
+      "bio.anatomia.sistemas"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "sistema imunológico",
+      "anticorpo",
+      "antígeno",
+      "linfócito",
+      "vacina",
+      "imunidade",
+      "AIDS",
+      "HIV",
+      "câncer",
+      "vírus",
+      "bactéria",
+      "parasita",
+      "doença infecciosa"
+    ]
+  },
+  {
+    "id": "his.brasil.colonial",
+    "titulo": "Brasil Colonial (1500–1808)",
+    "descricao": "Chegada dos portugueses, ocupação do território, sistema colonial, escravidão africana, resistência indígena e africana, ciclos econômicos (pau-brasil, cana, mineração)",
+    "area": "ciencias-humanas",
+    "disciplina": "historia",
+    "nivel": 1,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "colonização",
+      "escravidão",
+      "sesmaria",
+      "capitania hereditária",
+      "pau-brasil",
+      "cana-de-açúcar",
+      "mineração",
+      "Quilombo dos Palmares",
+      "Inconfidência Mineira",
+      "jesuítas"
+    ]
+  },
+  {
+    "id": "his.brasil.imperial",
+    "titulo": "Brasil Imperial e Independência (1808–1889)",
+    "descricao": "Vinda da família real, Independência, Primeiro Reinado, Regências, Segundo Reinado, abolição da escravidão, crise do Império",
+    "area": "ciencias-humanas",
+    "disciplina": "historia",
+    "nivel": 1,
+    "pre_requisitos": [
+      "his.brasil.colonial"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "Independência",
+      "Dom Pedro I",
+      "Dom Pedro II",
+      "Regências",
+      "abolição",
+      "Lei Áurea",
+      "escravidão",
+      "café",
+      "monarquia",
+      "Cabanagem",
+      "Balaiada",
+      "Guerra do Paraguai"
+    ]
+  },
+  {
+    "id": "his.brasil.republica_velha",
+    "titulo": "Primeira República (1889–1930)",
+    "descricao": "Proclamação da República, política do café-com-leite, coronelismo, oligarquias, tenentismo, Revolta da Chibata, movimentos sociais e culturais (Modernismo de 1922)",
+    "area": "ciencias-humanas",
+    "disciplina": "historia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "his.brasil.imperial"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "República",
+      "café-com-leite",
+      "coronelismo",
+      "oligarquia",
+      "tenentismo",
+      "Revolta da Chibata",
+      "Canudos",
+      "Contestado",
+      "Semana de Arte Moderna"
+    ]
+  },
+  {
+    "id": "his.brasil.era_vargas",
+    "titulo": "Era Vargas e Estado Novo (1930–1945)",
+    "descricao": "Revolução de 1930, Governo Provisório, Constitucionalismo de 1932, Estado Novo, industrialização, trabalhismo, CLT, Integralismo",
+    "area": "ciencias-humanas",
+    "disciplina": "historia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "his.brasil.republica_velha"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "Getúlio Vargas",
+      "Estado Novo",
+      "CLT",
+      "trabalhismo",
+      "industrialização",
+      "Intentona Comunista",
+      "integralismo",
+      "intervencionismo",
+      "Segunda República"
+    ]
+  },
+  {
+    "id": "his.brasil.democratizacao",
+    "titulo": "Redemocratização e República Populista (1945–1964)",
+    "descricao": "Queda de Vargas, Constituição de 1946, governo JK e desenvolvimentismo, Brasília, renúncia de Jânio, governo Goulart",
+    "area": "ciencias-humanas",
+    "disciplina": "historia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "his.brasil.era_vargas"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "JK",
+      "desenvolvimentismo",
+      "Brasília",
+      "Jânio Quadros",
+      "João Goulart",
+      "reformas de base",
+      "populismo",
+      "Constituição de 1946"
+    ]
+  },
+  {
+    "id": "his.brasil.ditadura",
+    "titulo": "Ditadura Militar (1964–1985)",
+    "descricao": "Golpe civil-militar, AI-5, repressão e resistência, milagre econômico, abertura política, Diretas Já",
+    "area": "ciencias-humanas",
+    "disciplina": "historia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "his.brasil.democratizacao"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "ditadura militar",
+      "AI-5",
+      "censura",
+      "repressão",
+      "guerrilha",
+      "milagre econômico",
+      "Diretas Já",
+      "abertura política",
+      "anistia",
+      "golpe de 1964"
+    ]
+  },
+  {
+    "id": "his.brasil.nova_republica",
+    "titulo": "Nova República e Contemporaneidade (1985–presente)",
+    "descricao": "Constituição de 1988, governos Sarney a Lula, plano Real, neoliberalismo, movimentos sociais, desigualdade",
+    "area": "ciencias-humanas",
+    "disciplina": "historia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "his.brasil.ditadura"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "Constituição de 1988",
+      "Plano Real",
+      "impeachment",
+      "neoliberalismo",
+      "MST",
+      "desigualdade social",
+      "redemocratização"
+    ]
+  },
+  {
+    "id": "his.geral.antiguidade",
+    "titulo": "Mundo Antigo: Egito, Grécia e Roma",
+    "descricao": "Civilizações do Nilo, polis grega, democracia ateniense, cultura helenística, República e Império Romano, escravidão antiga",
+    "area": "ciencias-humanas",
+    "disciplina": "historia",
+    "nivel": 1,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "Egito",
+      "Grécia",
+      "Roma",
+      "polis",
+      "democracia",
+      "escravidão",
+      "Atenas",
+      "Esparta",
+      "República romana",
+      "Império romano",
+      "helenismo"
+    ]
+  },
+  {
+    "id": "his.geral.medieval",
+    "titulo": "Idade Média e Feudalismo",
+    "descricao": "Feudalismo, Igreja Católica, Cruzadas, Islã, Bizâncio, formação das monarquias nacionais, crise do século XIV",
+    "area": "ciencias-humanas",
+    "disciplina": "historia",
+    "nivel": 1,
+    "pre_requisitos": [
+      "his.geral.antiguidade"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "feudalismo",
+      "servidão",
+      "Igreja",
+      "Cruzadas",
+      "Islã",
+      "Bizâncio",
+      "monarquia",
+      "Renascimento comercial",
+      "Peste Negra"
+    ]
+  },
+  {
+    "id": "his.geral.moderna",
+    "titulo": "Idade Moderna: Renascimento, Reforma e Expansão",
+    "descricao": "Renascimento cultural, Reforma Protestante, grandes navegações, colonialismo, Mercantilismo, absolutismo, Iluminismo",
+    "area": "ciencias-humanas",
+    "disciplina": "historia",
+    "nivel": 1,
+    "pre_requisitos": [
+      "his.geral.medieval"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "Renascimento",
+      "Reforma Protestante",
+      "Calvino",
+      "Lutero",
+      "grandes navegações",
+      "mercantilismo",
+      "absolutismo",
+      "Iluminismo",
+      "colonialismo"
+    ]
+  },
+  {
+    "id": "his.geral.seculo18_19",
+    "titulo": "Revoluções do Século XVIII e XIX",
+    "descricao": "Revolução Francesa, Revolução Industrial, Napoleão, movimentos de independência, nacionalismo, imperialismo europeu",
+    "area": "ciencias-humanas",
+    "disciplina": "historia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "his.geral.moderna"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "Revolução Francesa",
+      "Revolução Industrial",
+      "Napoleão",
+      "independência",
+      "liberalismo",
+      "nacionalismo",
+      "imperialismo",
+      "socialismo",
+      "marxismo"
+    ]
+  },
+  {
+    "id": "his.geral.seculo20",
+    "titulo": "Século XX: Guerras Mundiais e Guerra Fria",
+    "descricao": "Primeira e Segunda Guerras Mundiais, Revolução Russa, nazismo, fascismo, Holocausto, Guerra Fria, descolonização da Ásia e África",
+    "area": "ciencias-humanas",
+    "disciplina": "historia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "his.geral.seculo18_19"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "Primeira Guerra Mundial",
+      "Segunda Guerra Mundial",
+      "Revolução Russa",
+      "nazismo",
+      "Holocausto",
+      "Guerra Fria",
+      "ONU",
+      "descolonização",
+      "bipolaridade"
+    ]
+  },
+  {
+    "id": "his.africa_diaspora",
+    "titulo": "África e Diáspora Africana",
+    "descricao": "Civilizações africanas pré-coloniais, tráfico de escravizados, diáspora, resistência e cultura afro-brasileira, movimento negro",
+    "area": "ciencias-humanas",
+    "disciplina": "historia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "his.brasil.colonial"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "África",
+      "diáspora",
+      "escravidão",
+      "tráfico",
+      "quilombo",
+      "candomblé",
+      "capoeira",
+      "movimento negro",
+      "Lei 10.639",
+      "africanidade"
+    ]
+  },
+  {
+    "id": "his.america",
+    "titulo": "América: Colonização e Independências",
+    "descricao": "América pré-colombiana (astecas, maias, incas), colonização espanhola, independências hispano-americanas, EUA (formação e expansão)",
+    "area": "ciencias-humanas",
+    "disciplina": "historia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "his.geral.moderna"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "asteca",
+      "maia",
+      "inca",
+      "colonização espanhola",
+      "independência",
+      "bolívar",
+      "EUA",
+      "revolução americana",
+      "manifest destiny",
+      "imperialismo norte-americano"
+    ]
+  },
+  {
+    "id": "geo.fisica.relevo",
+    "titulo": "Relevo, Geologia e Mineração",
+    "descricao": "Agentes internos e externos de modelagem do relevo, tectonismo, vulcanismo, era geológica, solos, mineração e impactos",
+    "area": "ciencias-humanas",
+    "disciplina": "geografia",
+    "nivel": 1,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "relevo",
+      "planalto",
+      "planície",
+      "depressão",
+      "erosão",
+      "tectonismo",
+      "vulcanismo",
+      "solo",
+      "intemperismo",
+      "mineração",
+      "placa tectônica"
+    ]
+  },
+  {
+    "id": "geo.fisica.clima",
+    "titulo": "Climatologia e Meteorologia",
+    "descricao": "Elementos do clima (temperatura, pressão, umidade, precipitação), fatores do clima, zonas climáticas, massas de ar, fenômenos meteorológicos",
+    "area": "ciencias-humanas",
+    "disciplina": "geografia",
+    "nivel": 1,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "clima",
+      "tempo",
+      "temperatura",
+      "precipitação",
+      "umidade",
+      "massa de ar",
+      "frente fria",
+      "El Niño",
+      "La Niña",
+      "aquecimento global",
+      "zona climática"
+    ]
+  },
+  {
+    "id": "geo.fisica.hidrografia",
+    "titulo": "Hidrografia",
+    "descricao": "Ciclo hidrológico, bacias hidrográficas, rios, lagos, aquíferos, oceanos, recursos hídricos e gestão da água",
+    "area": "ciencias-humanas",
+    "disciplina": "geografia",
+    "nivel": 1,
+    "pre_requisitos": [
+      "geo.fisica.clima"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "bacia hidrográfica",
+      "rio",
+      "afluente",
+      "aquífero Guarani",
+      "ciclo da água",
+      "recursos hídricos",
+      "seca",
+      "enchente",
+      "Amazônia",
+      "São Francisco"
+    ]
+  },
+  {
+    "id": "geo.brasil.regionalizacao",
+    "titulo": "Regionalização do Brasil",
+    "descricao": "Regiões brasileiras (Norte, Nordeste, Centro-Oeste, Sudeste, Sul), características físicas, econômicas e populacionais de cada região, fronteiras agrícolas",
+    "area": "ciencias-humanas",
+    "disciplina": "geografia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "geo.fisica.relevo",
+      "geo.fisica.clima"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "região Norte",
+      "Nordeste",
+      "Centro-Oeste",
+      "Sudeste",
+      "Sul",
+      "fronteira agrícola",
+      "cerrado",
+      "semiárido",
+      "SUDAM",
+      "SUDENE"
+    ]
+  },
+  {
+    "id": "geo.brasil.urbanizacao",
+    "titulo": "Urbanização e Espaço Urbano Brasileiro",
+    "descricao": "Processo de urbanização, metrópoles e megalópoles, favelização, segregação socioespacial, periferização, redes urbanas, regiões metropolitanas",
+    "area": "ciencias-humanas",
+    "disciplina": "geografia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "geo.brasil.populacao"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "urbanização",
+      "metrópole",
+      "megalópole",
+      "favela",
+      "segregação",
+      "periferização",
+      "conurbação",
+      "região metropolitana",
+      "êxodo rural"
+    ]
+  },
+  {
+    "id": "geo.brasil.populacao",
+    "titulo": "População Brasileira e Fluxos Migratórios",
+    "descricao": "Composição étnico-racial, crescimento vegetativo, pirâmide etária, migrações internas, imigração histórica, distribuição espacial",
+    "area": "ciencias-humanas",
+    "disciplina": "geografia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "geo.brasil.regionalizacao"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "população",
+      "crescimento vegetativo",
+      "pirâmide etária",
+      "migração",
+      "êxodo rural",
+      "imigração",
+      "distribuição espacial",
+      "densidade demográfica"
+    ]
+  },
+  {
+    "id": "geo.brasil.agraria",
+    "titulo": "Espaço Agrário Brasileiro",
+    "descricao": "Estrutura fundiária, reforma agrária, agronegócio vs. agricultura familiar, tecnificação do campo, MST, conflitos agrários",
+    "area": "ciencias-humanas",
+    "disciplina": "geografia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "geo.brasil.regionalizacao"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "estrutura fundiária",
+      "latifúndio",
+      "minifúndio",
+      "agronegócio",
+      "agricultura familiar",
+      "reforma agrária",
+      "MST",
+      "monocultura",
+      "grilagem"
+    ]
+  },
+  {
+    "id": "geo.brasil.industria",
+    "titulo": "Industrialização e Espaço Industrial Brasileiro",
+    "descricao": "Histórico da industrialização, concentração espacial, desconcentração, indústrias de ponta, ZPE, polo tecnológico",
+    "area": "ciencias-humanas",
+    "disciplina": "geografia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "geo.brasil.regionalizacao"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "industrialização",
+      "concentração industrial",
+      "desconcentração",
+      "ZPE",
+      "tecnologia",
+      "setor secundário",
+      "investimento estrangeiro"
+    ]
+  },
+  {
+    "id": "geo.geopolitica",
+    "titulo": "Geopolítica Mundial e Globalização",
+    "descricao": "Nova ordem mundial, blocos econômicos (Mercosul, UE, ASEAN), globalização, multipolaridade, BRICS, conflitos internacionais",
+    "area": "ciencias-humanas",
+    "disciplina": "geografia",
+    "nivel": 3,
+    "pre_requisitos": [
+      "geo.brasil.industria"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "globalização",
+      "geopolítica",
+      "blocos econômicos",
+      "Mercosul",
+      "União Europeia",
+      "NAFTA",
+      "BRICS",
+      "multipolaridade",
+      "hegemonia",
+      "imperialismo"
+    ]
+  },
+  {
+    "id": "geo.ambiental",
+    "titulo": "Questões Ambientais e Desenvolvimento Sustentável",
+    "descricao": "Problemas ambientais globais (aquecimento, desertificação, escassez hídrica), acordos internacionais, desenvolvimento sustentável, matriz energética",
+    "area": "ciencias-humanas",
+    "disciplina": "geografia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "geo.fisica.clima"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "aquecimento global",
+      "desertificação",
+      "escassez de água",
+      "acordo de Paris",
+      "Protocolo de Kyoto",
+      "desenvolvimento sustentável",
+      "energia renovável",
+      "pegada ecológica"
+    ]
+  },
+  {
+    "id": "geo.cartografia",
+    "titulo": "Cartografia e Representação do Espaço",
+    "descricao": "Mapas, escalas, projeções cartográficas, coordenadas geográficas (latitude, longitude), fuso horário, SIG, imagens de satélite",
+    "area": "ciencias-humanas",
+    "disciplina": "geografia",
+    "nivel": 1,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "mapa",
+      "escala",
+      "projeção cartográfica",
+      "latitude",
+      "longitude",
+      "coordenadas",
+      "fuso horário",
+      "SIG",
+      "GPS",
+      "sensoriamento remoto"
+    ]
+  },
+  {
+    "id": "fil.epistemologia",
+    "titulo": "Teoria do Conhecimento",
+    "descricao": "Empirismo, racionalismo, idealismo kantiano, ceticismo, ciência e método científico, verdade e justificação",
+    "area": "ciencias-humanas",
+    "disciplina": "filosofia",
+    "nivel": 2,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "epistemologia",
+      "empirismo",
+      "racionalismo",
+      "Descartes",
+      "Locke",
+      "Hume",
+      "Kant",
+      "ceticismo",
+      "método científico",
+      "verdade",
+      "conhecimento"
+    ]
+  },
+  {
+    "id": "fil.etica",
+    "titulo": "Ética e Moral",
+    "descricao": "Ética das virtudes (Aristóteles), deontologia (Kant), utilitarismo (Mill), ética aplicada (bioética, ética ambiental, direitos humanos)",
+    "area": "ciencias-humanas",
+    "disciplina": "filosofia",
+    "nivel": 2,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "ética",
+      "moral",
+      "virtude",
+      "dever",
+      "utilitarismo",
+      "consequencialismo",
+      "deontologia",
+      "Kant",
+      "Aristóteles",
+      "bioética",
+      "direitos humanos"
+    ]
+  },
+  {
+    "id": "fil.politica",
+    "titulo": "Filosofia Política e Contrato Social",
+    "descricao": "Estado de natureza, contrato social (Hobbes, Locke, Rousseau), democracia, poder, soberania, liberalismo, marxismo",
+    "area": "ciencias-humanas",
+    "disciplina": "filosofia",
+    "nivel": 2,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "contrato social",
+      "Hobbes",
+      "Locke",
+      "Rousseau",
+      "democracia",
+      "soberania popular",
+      "poder",
+      "estado",
+      "liberalismo",
+      "marxismo",
+      "alienação"
+    ]
+  },
+  {
+    "id": "fil.estetica",
+    "titulo": "Estética, Arte e Cultura",
+    "descricao": "Belo e sublime, arte como mimese e expressão, indústria cultural, estética crítica (Adorno, Benjamin), função social da arte",
+    "area": "ciencias-humanas",
+    "disciplina": "filosofia",
+    "nivel": 3,
+    "pre_requisitos": [
+      "fil.epistemologia"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "estética",
+      "belo",
+      "sublime",
+      "arte",
+      "mimese",
+      "indústria cultural",
+      "Adorno",
+      "Benjamin",
+      "cultura de massa",
+      "autonomia da arte"
+    ]
+  },
+  {
+    "id": "fil.filosofia_ciencia",
+    "titulo": "Filosofia da Ciência e Lógica",
+    "descricao": "Lógica formal, dedução, indução, falsificacionismo (Popper), paradigma científico (Kuhn), racionalidade científica",
+    "area": "ciencias-humanas",
+    "disciplina": "filosofia",
+    "nivel": 3,
+    "pre_requisitos": [
+      "fil.epistemologia"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "lógica",
+      "dedução",
+      "indução",
+      "Popper",
+      "falsificacionismo",
+      "Kuhn",
+      "paradigma",
+      "revolução científica",
+      "argumento",
+      "silogismo"
+    ]
+  },
+  {
+    "id": "soc.teorias",
+    "titulo": "Teorias Sociológicas Clássicas",
+    "descricao": "Auguste Comte e o positivismo, Émile Durkheim e o fato social, Max Weber e a ação social, Karl Marx e o materialismo histórico",
+    "area": "ciencias-humanas",
+    "disciplina": "sociologia",
+    "nivel": 2,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "Comte",
+      "Durkheim",
+      "Weber",
+      "Marx",
+      "positivismo",
+      "fato social",
+      "ação social",
+      "materialismo histórico",
+      "alienação",
+      "ideologia",
+      "anomia"
+    ]
+  },
+  {
+    "id": "soc.desigualdade",
+    "titulo": "Estratificação Social e Desigualdades",
+    "descricao": "Classes sociais, mobilidade social, estratificação por raça e gênero, pobreza, exclusão social, índices de desigualdade (Gini)",
+    "area": "ciencias-humanas",
+    "disciplina": "sociologia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "soc.teorias"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "classe social",
+      "mobilidade social",
+      "desigualdade",
+      "pobreza",
+      "exclusão",
+      "índice de Gini",
+      "racismo",
+      "sexismo",
+      "interseccionalidade"
+    ]
+  },
+  {
+    "id": "soc.cultura_identidade",
+    "titulo": "Cultura, Identidade e Diversidade",
+    "descricao": "Conceito de cultura, relativismo e etnocentrismo, multiculturalismo, identidade coletiva, movimentos identitários, mídia e consumo cultural",
+    "area": "ciencias-humanas",
+    "disciplina": "sociologia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "soc.teorias"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "cultura",
+      "relativismo cultural",
+      "etnocentrismo",
+      "multiculturalismo",
+      "identidade",
+      "diversidade",
+      "globalização cultural",
+      "indústria cultural",
+      "consumo"
+    ]
+  },
+  {
+    "id": "soc.cidadania",
+    "titulo": "Cidadania, Estado e Direitos",
+    "descricao": "Democracia e participação política, direitos civis, políticos e sociais, movimentos sociais, Estado de Bem-estar Social, políticas públicas",
+    "area": "ciencias-humanas",
+    "disciplina": "sociologia",
+    "nivel": 2,
+    "pre_requisitos": [
+      "soc.teorias"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "cidadania",
+      "democracia",
+      "direitos civis",
+      "direitos sociais",
+      "movimentos sociais",
+      "participação política",
+      "Estado",
+      "políticas públicas",
+      "welfare state"
+    ]
+  },
+  {
+    "id": "soc.trabalho",
+    "titulo": "Trabalho, Tecnologia e Transformações Sociais",
+    "descricao": "Divisão do trabalho, fordismo, taylorismo, toyotismo, precarização, automação, desemprego estrutural, gig economy",
+    "area": "ciencias-humanas",
+    "disciplina": "sociologia",
+    "nivel": 3,
+    "pre_requisitos": [
+      "soc.desigualdade"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "trabalho",
+      "divisão do trabalho",
+      "fordismo",
+      "taylorismo",
+      "toyotismo",
+      "precarização",
+      "automação",
+      "desemprego",
+      "gig economy",
+      "sindicalismo"
+    ]
+  },
+  {
+    "id": "por.leitura.generos",
+    "titulo": "Gêneros Textuais e Compreensão Leitora",
+    "descricao": "Tipologia textual (narrativo, descritivo, argumentativo, expositivo, injuntivo), reconhecimento de gêneros, tema e ideia central, inferência, coerência",
+    "area": "linguagens",
+    "disciplina": "lingua_portuguesa",
+    "nivel": 1,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "gênero textual",
+      "tipologia",
+      "narrativo",
+      "descritivo",
+      "argumentativo",
+      "injuntivo",
+      "expositivo",
+      "compreensão leitora",
+      "inferência",
+      "tema"
+    ]
+  },
+  {
+    "id": "por.leitura.intertextualidade",
+    "titulo": "Intertextualidade e Interdiscursividade",
+    "descricao": "Intertextualidade explícita e implícita, citação, paráfrase, paródia, pastiche, interdiscursividade, polifonia",
+    "area": "linguagens",
+    "disciplina": "lingua_portuguesa",
+    "nivel": 2,
+    "pre_requisitos": [
+      "por.leitura.generos"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "intertextualidade",
+      "citação",
+      "paráfrase",
+      "paródia",
+      "pastiche",
+      "interdiscurso",
+      "polifonia",
+      "dialogismo",
+      "referência intertextual"
+    ]
+  },
+  {
+    "id": "por.discurso",
+    "titulo": "Análise do Discurso e Linguagem",
+    "descricao": "Intencionalidade, persuasão, argumentação, figuras de linguagem, ironia, ambiguidade, implícitos, pressuposição",
+    "area": "linguagens",
+    "disciplina": "lingua_portuguesa",
+    "nivel": 2,
+    "pre_requisitos": [
+      "por.leitura.generos"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "argumentação",
+      "persuasão",
+      "ironia",
+      "implícito",
+      "pressuposição",
+      "metáfora",
+      "metonímia",
+      "eufemismo",
+      "hipérbole",
+      "personificação",
+      "figuras de linguagem"
+    ]
+  },
+  {
+    "id": "por.coesao",
+    "titulo": "Coesão e Coerência Textual",
+    "descricao": "Mecanismos de coesão referencial e sequencial, conectivos, conjunções, progressão temática, coerência textual",
+    "area": "linguagens",
+    "disciplina": "lingua_portuguesa",
+    "nivel": 2,
+    "pre_requisitos": [
+      "por.leitura.generos"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "coesão",
+      "coerência",
+      "conectivo",
+      "conjunção",
+      "pronome referencial",
+      "progressão temática",
+      "paralelismo",
+      "anáfora",
+      "catáfora",
+      "elipse"
+    ]
+  },
+  {
+    "id": "por.gramatica.morfologia",
+    "titulo": "Morfologia e Classes de Palavras",
+    "descricao": "Substantivo, adjetivo, verbo (modos, tempos, vozes), pronome, artigo, preposição, conjunção, interjeição; formação de palavras",
+    "area": "linguagens",
+    "disciplina": "lingua_portuguesa",
+    "nivel": 1,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "morfologia",
+      "substantivo",
+      "adjetivo",
+      "verbo",
+      "pronome",
+      "preposição",
+      "conjunção",
+      "derivação",
+      "composição",
+      "prefixo",
+      "sufixo",
+      "modo verbal",
+      "tempo verbal"
+    ]
+  },
+  {
+    "id": "por.gramatica.sintaxe",
+    "titulo": "Sintaxe e Análise Sintática",
+    "descricao": "Sujeito, predicado, objeto, complemento nominal, adjunto adverbial, aposto, vocativo; concordância verbal e nominal; regência",
+    "area": "linguagens",
+    "disciplina": "lingua_portuguesa",
+    "nivel": 2,
+    "pre_requisitos": [
+      "por.gramatica.morfologia"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "sintaxe",
+      "sujeito",
+      "predicado",
+      "objeto direto",
+      "objeto indireto",
+      "concordância verbal",
+      "concordância nominal",
+      "regência",
+      "crase",
+      "período composto"
+    ]
+  },
+  {
+    "id": "por.gramatica.semantica",
+    "titulo": "Semântica e Variação Linguística",
+    "descricao": "Sinonímia, antonímia, polissemia, homonímia, paronímia; variação geográfica, social e histórica da língua; preconceito linguístico",
+    "area": "linguagens",
+    "disciplina": "lingua_portuguesa",
+    "nivel": 2,
+    "pre_requisitos": [
+      "por.gramatica.morfologia"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "semântica",
+      "sinonímia",
+      "antonímia",
+      "polissemia",
+      "homonímia",
+      "paronímia",
+      "variação linguística",
+      "dialeto",
+      "registro",
+      "preconceito linguístico"
+    ]
+  },
+  {
+    "id": "lit.periodos",
+    "titulo": "Períodos Literários Brasileiros",
+    "descricao": "Quinhentismo, Barroco, Arcadismo, Romantismo, Realismo/Naturalismo, Parnasianismo, Simbolismo, Pré-Modernismo, Modernismo (fases), Contemporaneidade",
+    "area": "linguagens",
+    "disciplina": "literatura",
+    "nivel": 2,
+    "pre_requisitos": [
+      "por.leitura.generos"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "Quinhentismo",
+      "Barroco",
+      "Arcadismo",
+      "Romantismo",
+      "Realismo",
+      "Naturalismo",
+      "Parnasianismo",
+      "Simbolismo",
+      "Modernismo",
+      "Semana de Arte Moderna",
+      "Guimarães Rosa",
+      "Machado de Assis"
+    ]
+  },
+  {
+    "id": "lit.generos",
+    "titulo": "Gêneros e Recursos Literários",
+    "descricao": "Narrativa (conto, crônica, romance), lírica (poesia), drama; narrador, personagem, tempo e espaço narrativo; verso, estrofe, rima, metro",
+    "area": "linguagens",
+    "disciplina": "literatura",
+    "nivel": 2,
+    "pre_requisitos": [
+      "por.leitura.generos"
+    ],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "narrativa",
+      "conto",
+      "crônica",
+      "romance",
+      "poesia",
+      "drama",
+      "narrador",
+      "personagem",
+      "verso",
+      "estrofe",
+      "rima",
+      "metro",
+      "lirismo"
+    ]
+  },
+  {
+    "id": "art.linguagens",
+    "titulo": "Artes, Mídias e Manifestações Culturais",
+    "descricao": "Linguagens artísticas (música, dança, artes visuais, teatro, cinema), patrimônio cultural, cultura popular, cultura afro-brasileira e indígena",
+    "area": "linguagens",
+    "disciplina": "artes",
+    "nivel": 1,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "arte",
+      "música",
+      "dança",
+      "cinema",
+      "teatro",
+      "cultura popular",
+      "patrimônio cultural",
+      "carnaval",
+      "capoeira",
+      "cultura indígena",
+      "mídia"
+    ]
+  },
+  {
+    "id": "ing.compreensao",
+    "titulo": "Inglês: Compreensão de Texto",
+    "descricao": "Leitura e compreensão de textos em inglês, vocabulário contextualizado, falsos cognatos, inferência, texto publicitário e informativo",
+    "area": "linguagens",
+    "disciplina": "lingua_estrangeira_ingles",
+    "nivel": 1,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "inglês",
+      "leitura em inglês",
+      "compreensão textual",
+      "vocabulário",
+      "falso cognato",
+      "inferência",
+      "texto em inglês"
+    ]
+  },
+  {
+    "id": "esp.compreensao",
+    "titulo": "Espanhol: Compreensão de Texto",
+    "descricao": "Leitura e compreensão de textos em espanhol, vocabulário contextualizado, especificidades do espanhol vs. português, inferência",
+    "area": "linguagens",
+    "disciplina": "lingua_estrangeira_espanhol",
+    "nivel": 1,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": [
+      "espanhol",
+      "leitura em espanhol",
+      "compreensão textual",
+      "vocabulário espanhol",
+      "falso amigo",
+      "inferência",
+      "texto em espanhol"
+    ]
+  }
+]

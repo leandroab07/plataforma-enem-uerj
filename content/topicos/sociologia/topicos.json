@@ -1,0 +1,62 @@
+[
+  {
+    "id": "soc.teorias",
+    "titulo": "Teorias Sociológicas Clássicas",
+    "descricao": "Auguste Comte e o positivismo, Émile Durkheim e o fato social, Max Weber e a ação social, Karl Marx e o materialismo histórico",
+    "area": "ciencias-humanas",
+    "disciplina": "sociologia",
+    "nivel": 2,
+    "pre_requisitos": [],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": ["Comte", "Durkheim", "Weber", "Marx", "positivismo", "fato social", "ação social", "materialismo histórico", "alienação", "ideologia", "anomia"]
+  },
+  {
+    "id": "soc.desigualdade",
+    "titulo": "Estratificação Social e Desigualdades",
+    "descricao": "Classes sociais, mobilidade social, estratificação por raça e gênero, pobreza, exclusão social, índices de desigualdade (Gini)",
+    "area": "ciencias-humanas",
+    "disciplina": "sociologia",
+    "nivel": 2,
+    "pre_requisitos": ["soc.teorias"],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": ["classe social", "mobilidade social", "desigualdade", "pobreza", "exclusão", "índice de Gini", "racismo", "sexismo", "interseccionalidade"]
+  },
+  {
+    "id": "soc.cultura_identidade",
+    "titulo": "Cultura, Identidade e Diversidade",
+    "descricao": "Conceito de cultura, relativismo e etnocentrismo, multiculturalismo, identidade coletiva, movimentos identitários, mídia e consumo cultural",
+    "area": "ciencias-humanas",
+    "disciplina": "sociologia",
+    "nivel": 2,
+    "pre_requisitos": ["soc.teorias"],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": ["cultura", "relativismo cultural", "etnocentrismo", "multiculturalismo", "identidade", "diversidade", "globalização cultural", "indústria cultural", "consumo"]
+  },
+  {
+    "id": "soc.cidadania",
+    "titulo": "Cidadania, Estado e Direitos",
+    "descricao": "Democracia e participação política, direitos civis, políticos e sociais, movimentos sociais, Estado de Bem-estar Social, políticas públicas",
+    "area": "ciencias-humanas",
+    "disciplina": "sociologia",
+    "nivel": 2,
+    "pre_requisitos": ["soc.teorias"],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": ["cidadania", "democracia", "direitos civis", "direitos sociais", "movimentos sociais", "participação política", "Estado", "políticas públicas", "welfare state"]
+  },
+  {
+    "id": "soc.trabalho",
+    "titulo": "Trabalho, Tecnologia e Transformações Sociais",
+    "descricao": "Divisão do trabalho, fordismo, taylorismo, toyotismo, precarização, automação, desemprego estrutural, gig economy",
+    "area": "ciencias-humanas",
+    "disciplina": "sociologia",
+    "nivel": 3,
+    "pre_requisitos": ["soc.desigualdade"],
+    "peso_enem_estimado": null,
+    "peso_uerj_estimado": null,
+    "keywords": ["trabalho", "divisão do trabalho", "fordismo", "taylorismo", "toyotismo", "precarização", "automação", "desemprego", "gig economy", "sindicalismo"]
+  }
+]

@@ -1,0 +1,221 @@
+{
+  "gerado_em": "2026-05-25T02:27:07.529063+00:00",
+  "fase": 1,
+  "enem": {
+    "total_origem": 2689,
+    "ok": 2673,
+    "revisar": 16,
+    "descartar": 0,
+    "por_ano": {
+      "2009": {
+        "ok": 179,
+        "revisar": 0,
+        "descartar": 0
+      },
+      "2010": {
+        "ok": 180,
+        "revisar": 0,
+        "descartar": 0
+      },
+      "2011": {
+        "ok": 179,
+        "revisar": 1,
+        "descartar": 0
+      },
+      "2012": {
+        "ok": 180,
+        "revisar": 0,
+        "descartar": 0
+      },
+      "2013": {
+        "ok": 179,
+        "revisar": 1,
+        "descartar": 0
+      },
+      "2014": {
+        "ok": 178,
+        "revisar": 2,
+        "descartar": 0
+      },
+      "2015": {
+        "ok": 176,
+        "revisar": 3,
+        "descartar": 0
+      },
+      "2016": {
+        "ok": 175,
+        "revisar": 5,
+        "descartar": 0
+      },
+      "2017": {
+        "ok": 180,
+        "revisar": 0,
+        "descartar": 0
+      },
+      "2018": {
+        "ok": 179,
+        "revisar": 0,
+        "descartar": 0
+      },
+      "2019": {
+        "ok": 177,
+        "revisar": 0,
+        "descartar": 0
+      },
+      "2020": {
+        "ok": 177,
+        "revisar": 0,
+        "descartar": 0
+      },
+      "2021": {
+        "ok": 178,
+        "revisar": 2,
+        "descartar": 0
+      },
+      "2022": {
+        "ok": 178,
+        "revisar": 2,
+        "descartar": 0
+      },
+      "2023": {
+        "ok": 178,
+        "revisar": 0,
+        "descartar": 0
+      }
+    },
+    "por_disciplina": {
+      "ciencias-humanas": {
+        "ok": 806,
+        "revisar": 3,
+        "descartar": 0
+      },
+      "ciencias-natureza": {
+        "ok": 614,
+        "revisar": 5,
+        "descartar": 0
+      },
+      "linguagens": {
+        "ok": 619,
+        "revisar": 0,
+        "descartar": 0
+      },
+      "matematica": {
+        "ok": 634,
+        "revisar": 8,
+        "descartar": 0
+      }
+    },
+    "motivos_revisao": {
+      "alternativas_insuficientes:4": 7,
+      "enunciado_curto": 9
+    }
+  },
+  "uerj": {
+    "total_origem": 1418,
+    "ok": 939,
+    "revisar": 479,
+    "descartar": 0,
+    "por_ano": {
+      "2014": {
+        "ok": 42,
+        "revisar": 91,
+        "descartar": 0
+      },
+      "2015": {
+        "ok": 128,
+        "revisar": 1,
+        "descartar": 0
+      },
+      "2016": {
+        "ok": 129,
+        "revisar": 0,
+        "descartar": 0
+      },
+      "2017": {
+        "ok": 83,
+        "revisar": 54,
+        "descartar": 0
+      },
+      "2018": {
+        "ok": 15,
+        "revisar": 116,
+        "descartar": 0
+      },
+      "2019": {
+        "ok": 15,
+        "revisar": 103,
+        "descartar": 0
+      },
+      "2020": {
+        "ok": 119,
+        "revisar": 10,
+        "descartar": 0
+      },
+      "2021": {
+        "ok": 8,
+        "revisar": 0,
+        "descartar": 0
+      },
+      "2022": {
+        "ok": 44,
+        "revisar": 11,
+        "descartar": 0
+      },
+      "2023": {
+        "ok": 45,
+        "revisar": 10,
+        "descartar": 0
+      },
+      "2024": {
+        "ok": 105,
+        "revisar": 25,
+        "descartar": 0
+      },
+      "2025": {
+        "ok": 112,
+        "revisar": 18,
+        "descartar": 0
+      },
+      "2026": {
+        "ok": 94,
+        "revisar": 40,
+        "descartar": 0
+      }
+    },
+    "por_exame": {
+      "1º Exame de Qualificação": {
+        "ok": 371,
+        "revisar": 207,
+        "descartar": 0
+      },
+      "2º Exame de Qualificação": {
+        "ok": 341,
+        "revisar": 251,
+        "descartar": 0
+      },
+      "Exame Discursivo": {
+        "ok": 130,
+        "revisar": 0,
+        "descartar": 0
+      },
+      "Exame Único": {
+        "ok": 97,
+        "revisar": 21,
+        "descartar": 0
+      }
+    },
+    "por_tipo": {
+      "objetiva": 921,
+      "discursiva": 497
+    },
+    "motivos_revisao": {
+      "gabarito_ausente": 471,
+      "alternativas_insuficientes:2": 14,
+      "alternativas_insuficientes:3": 3,
+      "enunciado_curto": 1,
+      "gabarito_invalido:D": 2,
+      "gabarito_invalido:B": 4,
+      "alternativas_insuficientes:1": 1
+    }
+  }
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "prova": "ENEM",
+    "area": "matematica",
+    "total": 634,
+    "alta": 41,
+    "media": 184,
+    "baixa": 409
+  },
+  {
+    "prova": "UERJ",
+    "area": "matematica",
+    "total": 138,
+    "alta": 23,
+    "media": 65,
+    "baixa": 50
+  },
+  {
+    "prova": "ENEM",
+    "area": "ciencias-natureza",
+    "total": 614,
+    "alta": 124,
+    "media": 228,
+    "baixa": 262
+  },
+  {
+    "prova": "UERJ",
+    "area": "ciencias-natureza",
+    "total": 120,
+    "alta": 38,
+    "media": 53,
+    "baixa": 29
+  },
+  {
+    "prova": "ENEM",
+    "area": "ciencias-humanas",
+    "total": 806,
+    "alta": 146,
+    "media": 407,
+    "baixa": 253
+  },
+  {
+    "prova": "UERJ",
+    "area": "ciencias-humanas",
+    "total": 137,
+    "alta": 28,
+    "media": 69,
+    "baixa": 40
+  },
+  {
+    "prova": "ENEM",
+    "area": "linguagens",
+    "total": 619,
+    "alta": 26,
+    "media": 123,
+    "baixa": 470
+  },
+  {
+    "prova": "UERJ",
+    "area": "linguagens",
+    "total": 69,
+    "alta": 5,
+    "media": 39,
+    "baixa": 25
+  }
+]
