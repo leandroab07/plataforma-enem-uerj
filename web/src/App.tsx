@@ -4,17 +4,19 @@ import Dashboard from './pages/Dashboard'
 import TopicPage from './pages/TopicPage'
 import Pratica from './pages/Pratica'
 import TopicosSelect from './pages/TopicosSelect'
+import UAIPage from './pages/UAIPage'
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/"                  element={<Login />} />
-        <Route path="/dashboard"         element={<Dashboard />} />
-        <Route path="/topico/:topicoId"  element={<TopicPage />} />
-        <Route path="/pratica"           element={<TopicosSelect />} />
-        <Route path="/pratica/:topicoId" element={<Pratica />} />
-        <Route path="*"                  element={<Navigate to="/" replace />} />
+        <Route path="/"                    element={<Login />} />
+        <Route path="/dashboard"           element={<Dashboard />} />
+        <Route path="/topico/:topicoId"    element={<TopicPage />} />
+        <Route path="/pratica"             element={<TopicosSelect />} />
+        <Route path="/pratica/:topicoId"   element={<Pratica />} />
+        <Route path="/aprender/:uaiId"     element={<UAIPage />} />
+        <Route path="*"                    element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
   )
