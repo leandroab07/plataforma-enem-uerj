@@ -109,6 +109,25 @@ export const TOPICOS_MOCK: Topico[] = [
     nivel: 3,
     pre_requisitos: ['mat.funcoes.linear'],
   },
+  // ── Química ──
+  {
+    id: 'qui.solucoes',
+    titulo: 'Soluções e Diluição',
+    descricao: 'Concentração, solubilidade e a lei C₁V₁ = C₂V₂',
+    area: 'quimica',
+    disciplina: 'química',
+    nivel: 2,
+    pre_requisitos: [],
+  },
+  {
+    id: 'qui.estequiometria',
+    titulo: 'Estequiometria',
+    descricao: 'Relações de mol, massa e volumes em reações químicas',
+    area: 'quimica',
+    disciplina: 'química',
+    nivel: 3,
+    pre_requisitos: ['qui.solucoes'],
+  },
 ]
 
 // Real ENEM questions (pure text, no images needed)

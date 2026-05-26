@@ -305,4 +305,76 @@ export const TEORIA: Record<string, TeoriaTopico> = {
       },
     ],
   },
+
+  'qui.solucoes': {
+    topicoId: 'qui.solucoes',
+    secoes: [
+      {
+        tipo: 'texto',
+        titulo: 'O que é uma Solução?',
+        conteudo: 'Uma solução é uma mistura homogênea de dois ou mais componentes. O componente em maior quantidade é o solvente (geralmente água) e o que está dissolvido é o soluto. Quanto mais soluto por unidade de volume, mais concentrada a solução.',
+      },
+      {
+        tipo: 'destaque',
+        titulo: 'Concentração Molar (Molaridade)',
+        conteudo: 'A molaridade (M) indica quantos mols de soluto existem em 1 litro de solução. É a grandeza mais usada em laboratório para preparar e diluir soluções.',
+      },
+      {
+        tipo: 'formula',
+        titulo: 'Fórmula da Concentração Molar',
+        conteudo: 'M (mol/L) = n (mols de soluto) / V (volume em litros)\n\nM = n / V\n\nExemplo: 0,5 mol de NaCl em 250 mL de solução:\nM = 0,5 / 0,250 = 2,0 mol/L',
+      },
+      {
+        tipo: 'destaque',
+        titulo: 'Lei da Diluição — C₁V₁ = C₂V₂',
+        conteudo: 'Ao diluir uma solução, o número de mols de soluto permanece constante. Apenas adicionamos mais solvente. Por isso, C₁V₁ (antes) = C₂V₂ (depois).',
+      },
+      {
+        tipo: 'formula',
+        titulo: 'Fórmula de Diluição',
+        conteudo: 'C₁ × V₁ = C₂ × V₂\n\nC₁ = concentração inicial (mol/L)\nV₁ = volume inicial (L ou mL)\nC₂ = concentração final (mol/L)\nV₂ = volume final (L ou mL)\n\nFator de diluição: fd = V₂/V₁ = C₁/C₂',
+      },
+      {
+        tipo: 'exemplo',
+        titulo: 'Exemplo Resolvido',
+        conteudo: 'Você tem 100 mL de solução de HCl com C₁ = 3,0 mol/L.\nDeseja obter uma solução com C₂ = 0,5 mol/L.\nQual o volume final necessário?\n\nUsando C₁V₁ = C₂V₂:\n3,0 × 100 = 0,5 × V₂\nV₂ = 300 / 0,5 = 600 mL\n\nPortanto, adicionamos 500 mL de água à solução inicial.',
+      },
+      {
+        tipo: 'lista',
+        titulo: 'Fatores que afetam a solubilidade',
+        conteudo: [
+          'Temperatura: a maioria dos sólidos se dissolve mais em temperaturas altas; gases se dissolvem menos.',
+          'Pressão: influencia principalmente a solubilidade de gases (Lei de Henry).',
+          'Polaridade: "semelhante dissolve semelhante" — solventes polares dissolvem solutos polares (ex: sal em água).',
+          'Agitação e granulação: aumentam a velocidade de dissolução, mas não a solubilidade máxima.',
+        ],
+      },
+    ],
+  },
+
+  'qui.estequiometria': {
+    topicoId: 'qui.estequiometria',
+    secoes: [
+      {
+        tipo: 'texto',
+        titulo: 'O que é Estequiometria?',
+        conteudo: 'Estequiometria é o cálculo das relações quantitativas entre reagentes e produtos em uma reação química. Baseia-se na Lei de Lavoisier (conservação de massa) e na proporção dos coeficientes estequiométricos.',
+      },
+      {
+        tipo: 'destaque',
+        titulo: 'O conceito de Mol',
+        conteudo: '1 mol = 6,02 × 10²³ partículas (Número de Avogadro). A massa de 1 mol de uma substância em gramas é igual à sua massa molar (em g/mol), obtida da tabela periódica.',
+      },
+      {
+        tipo: 'formula',
+        titulo: 'Relações fundamentais',
+        conteudo: 'n = m / M          (mols = massa / massa molar)\nn = V / 22,4       (mols de gás em CNTP, volume em litros)\nn = N / Nₐ         (mols a partir do número de partículas)\n\nMassa molar (M): soma das massas atômicas da fórmula\nEx: H₂O → M = 2(1) + 16 = 18 g/mol',
+      },
+      {
+        tipo: 'exemplo',
+        titulo: 'Cálculo Estequiométrico',
+        conteudo: 'Reação: 2H₂ + O₂ → 2H₂O\n\nQuantos gramas de H₂O são produzidos por 4g de H₂?\n\n1. Mols de H₂: n = 4 / 2 = 2 mol\n2. Proporção: 2 mol H₂ → 2 mol H₂O\n   Logo: 2 mol H₂ → 2 mol H₂O\n3. Massa de H₂O: m = 2 × 18 = 36 g',
+      },
+    ],
+  },
 }
