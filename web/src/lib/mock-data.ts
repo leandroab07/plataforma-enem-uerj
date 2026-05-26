@@ -110,24 +110,67 @@ export const TOPICOS_MOCK: Topico[] = [
     pre_requisitos: ['mat.funcoes.linear'],
   },
   // ── Química ──
-  {
-    id: 'qui.solucoes',
-    titulo: 'Soluções e Diluição',
-    descricao: 'Concentração, solubilidade e a lei C₁V₁ = C₂V₂',
-    area: 'quimica',
-    disciplina: 'química',
-    nivel: 2,
-    pre_requisitos: [],
-  },
-  {
-    id: 'qui.estequiometria',
-    titulo: 'Estequiometria',
-    descricao: 'Relações de mol, massa e volumes em reações químicas',
-    area: 'quimica',
-    disciplina: 'química',
-    nivel: 3,
-    pre_requisitos: ['qui.solucoes'],
-  },
+  { id: 'qui.solucoes',        titulo: 'Soluções e Diluição',           descricao: 'Concentração, solubilidade e a lei C₁V₁ = C₂V₂',              area: 'quimica',    disciplina: 'química',     nivel: 2, pre_requisitos: [] },
+  { id: 'qui.estequiometria',  titulo: 'Estequiometria',                descricao: 'Relações de mol, massa e volumes em reações químicas',          area: 'quimica',    disciplina: 'química',     nivel: 3, pre_requisitos: ['qui.solucoes'] },
+  { id: 'qui.atomica',         titulo: 'Estrutura Atômica',             descricao: 'Modelos atômicos, partículas subatômicas e configuração eletrônica', area: 'quimica', disciplina: 'química',  nivel: 1, pre_requisitos: [] },
+  { id: 'qui.ligacoes',        titulo: 'Ligações Químicas',             descricao: 'Ligação iônica, covalente, metálica e geometria molecular',     area: 'quimica',    disciplina: 'química',     nivel: 2, pre_requisitos: ['qui.atomica'] },
+  { id: 'qui.oxidacao',        titulo: 'Oxirredução e Eletroquímica',   descricao: 'Número de oxidação, pilhas de Daniell e eletrólise',           area: 'quimica',    disciplina: 'química',     nivel: 3, pre_requisitos: ['qui.atomica'] },
+  { id: 'qui.organica.basico', titulo: 'Química Orgânica',              descricao: 'Hidrocarbonetos, grupos funcionais e nomenclatura IUPAC',       area: 'quimica',    disciplina: 'química',     nivel: 3, pre_requisitos: ['qui.ligacoes'] },
+  { id: 'qui.termoquimica',    titulo: 'Termoquímica',                  descricao: 'Entalpia, lei de Hess e calor de reação',                      area: 'quimica',    disciplina: 'química',     nivel: 3, pre_requisitos: ['qui.estequiometria'] },
+
+  // ── Física ──
+  { id: 'fis.mecanica.cinematica', titulo: 'Cinemática',              descricao: 'MRU, MRUV, equações do movimento e gráficos',                  area: 'fisica',     disciplina: 'física',      nivel: 2, pre_requisitos: [] },
+  { id: 'fis.mecanica.dinamica',   titulo: 'Dinâmica — Leis de Newton', descricao: 'Inércia, F=ma, ação e reação e força de atrito',              area: 'fisica',     disciplina: 'física',      nivel: 2, pre_requisitos: ['fis.mecanica.cinematica'] },
+  { id: 'fis.mecanica.energia',    titulo: 'Trabalho, Energia e Potência', descricao: 'Energia cinética, potencial, conservação e rendimento',    area: 'fisica',     disciplina: 'física',      nivel: 3, pre_requisitos: ['fis.mecanica.dinamica'] },
+  { id: 'fis.eletricidade.basico', titulo: 'Eletricidade — Lei de Ohm', descricao: 'Corrente, tensão, resistência e circuitos elétricos',         area: 'fisica',     disciplina: 'física',      nivel: 2, pre_requisitos: [] },
+  { id: 'fis.ondas.som',           titulo: 'Ondulatória e Som',         descricao: 'Características das ondas, frequência, período e efeito Doppler', area: 'fisica', disciplina: 'física',      nivel: 2, pre_requisitos: [] },
+  { id: 'fis.optica',              titulo: 'Óptica Geométrica',         descricao: 'Reflexão, refração, espelhos, lentes e formação de imagens',  area: 'fisica',     disciplina: 'física',      nivel: 3, pre_requisitos: [] },
+  { id: 'fis.termologia',          titulo: 'Termologia e Termodinâmica', descricao: 'Temperatura, calor, escalas termométricas e leis da termodinâmica', area: 'fisica', disciplina: 'física',   nivel: 2, pre_requisitos: [] },
+  { id: 'fis.gravitacao',          titulo: 'Gravitação Universal',      descricao: 'Lei de Newton da gravitação, peso e aceleração gravitacional', area: 'fisica',    disciplina: 'física',      nivel: 3, pre_requisitos: ['fis.mecanica.dinamica'] },
+
+  // ── Biologia ──
+  { id: 'bio.celula',              titulo: 'Citologia — A Célula',      descricao: 'Organelas, membrana plasmática, pro e eucariótica',            area: 'biologia',   disciplina: 'biologia',    nivel: 1, pre_requisitos: [] },
+  { id: 'bio.genetica.mendeliana', titulo: 'Genética Mendeliana',       descricao: 'Leis de Mendel, dominância, recessividade e quadro de Punnett', area: 'biologia', disciplina: 'biologia',    nivel: 3, pre_requisitos: ['bio.celula'] },
+  { id: 'bio.evolucao',            titulo: 'Evolução Biológica',        descricao: 'Darwin, seleção natural, deriva genética e evidências evolutivas', area: 'biologia', disciplina: 'biologia', nivel: 3, pre_requisitos: [] },
+  { id: 'bio.ecologia',            titulo: 'Ecologia e Ecossistemas',   descricao: 'Cadeias alimentares, biomas, relações ecológicas e impactos ambientais', area: 'biologia', disciplina: 'biologia', nivel: 2, pre_requisitos: [] },
+  { id: 'bio.corpo.cardiovascular', titulo: 'Sistema Cardiovascular',   descricao: 'Coração, circulação sanguínea, vasos e componentes do sangue', area: 'biologia',  disciplina: 'biologia',    nivel: 2, pre_requisitos: ['bio.celula'] },
+  { id: 'bio.botanica',            titulo: 'Botânica e Fotossíntese',   descricao: 'Estrutura das plantas, fotossíntese e respiração celular',     area: 'biologia',   disciplina: 'biologia',    nivel: 2, pre_requisitos: ['bio.celula'] },
+  { id: 'bio.microbiologia',       titulo: 'Microbiologia',             descricao: 'Vírus, bactérias, fungos e protistas: estrutura e doenças',   area: 'biologia',   disciplina: 'biologia',    nivel: 2, pre_requisitos: [] },
+
+  // ── História ──
+  { id: 'hist.brasil.colonial',      titulo: 'Brasil Colonial',         descricao: 'Colonização, ciclos econômicos, escravidão e Companhia das Índias', area: 'historia', disciplina: 'história', nivel: 2, pre_requisitos: [] },
+  { id: 'hist.brasil.imperial',      titulo: 'Império e Independência', descricao: 'Independência do Brasil, Dom Pedro I e II, Abolição e República', area: 'historia',  disciplina: 'história', nivel: 2, pre_requisitos: [] },
+  { id: 'hist.brasil.vargas',        titulo: 'Era Vargas',              descricao: 'Revolução de 1930, Estado Novo, trabalhismo e industrialização', area: 'historia',  disciplina: 'história',  nivel: 2, pre_requisitos: [] },
+  { id: 'hist.mundial.guerras',      titulo: 'Guerras Mundiais',        descricao: '1ª e 2ª Guerra Mundial: causas, desenvolvimento e consequências', area: 'historia', disciplina: 'história',  nivel: 2, pre_requisitos: [] },
+  { id: 'hist.mundial.guerra-fria',  titulo: 'Guerra Fria',             descricao: 'Bipolarização mundial, corrida espacial, McCarthismo e dissolução da URSS', area: 'historia', disciplina: 'história', nivel: 3, pre_requisitos: [] },
+  { id: 'hist.brasil.ditadura',      titulo: 'Ditadura Militar',        descricao: 'Golpe de 1964, AI-5, resistência e redemocratização',          area: 'historia',   disciplina: 'história',  nivel: 3, pre_requisitos: [] },
+  { id: 'hist.brasil.republica',     titulo: 'República Velha',         descricao: 'Proclamação da República, coronelismo e política café com leite', area: 'historia',disciplina: 'história',  nivel: 2, pre_requisitos: [] },
+
+  // ── Geografia ──
+  { id: 'geo.brasil.regioes',        titulo: 'Regiões do Brasil',       descricao: 'Características naturais, econômicas e sociais das 5 regiões',  area: 'geografia',  disciplina: 'geografia', nivel: 1, pre_requisitos: [] },
+  { id: 'geo.mundo.populacao',       titulo: 'Dinâmica Populacional',   descricao: 'Crescimento demográfico, pirâmides etárias e migrações',        area: 'geografia',  disciplina: 'geografia', nivel: 2, pre_requisitos: [] },
+  { id: 'geo.mundo.clima',           titulo: 'Climatologia',            descricao: 'Climas do mundo, tempo/clima, El Niño e mudanças climáticas',   area: 'geografia',  disciplina: 'geografia', nivel: 2, pre_requisitos: [] },
+  { id: 'geo.mundo.globalizacao',    titulo: 'Globalização',            descricao: 'Economia global, desigualdades Norte-Sul e geopolítica',        area: 'geografia',  disciplina: 'geografia', nivel: 3, pre_requisitos: [] },
+  { id: 'geo.brasil.urbanizacao',    titulo: 'Urbanização no Brasil',   descricao: 'Êxodo rural, megalópoles, periferização e problemas urbanos',   area: 'geografia',  disciplina: 'geografia', nivel: 2, pre_requisitos: [] },
+  { id: 'geo.mundo.geopolitica',     titulo: 'Geopolítica Mundial',     descricao: 'Conflitos internacionais, blocos econômicos e organismos globais', area: 'geografia', disciplina: 'geografia', nivel: 3, pre_requisitos: [] },
+
+  // ── Linguagens ──
+  { id: 'ling.interpretacao',        titulo: 'Interpretação de Texto',  descricao: 'Estratégias de leitura, intertextualidade e linguagem figurada', area: 'linguagens', disciplina: 'linguagens', nivel: 1, pre_requisitos: [] },
+  { id: 'ling.gramatica',            titulo: 'Gramática e Norma Culta', descricao: 'Concordância, regência, pontuação e ortografia',                area: 'linguagens', disciplina: 'linguagens', nivel: 2, pre_requisitos: ['ling.interpretacao'] },
+  { id: 'ling.literatura.modernismo', titulo: 'Modernismo Brasileiro', descricao: 'Semana de Arte Moderna, fases do modernismo e principais autores', area: 'linguagens', disciplina: 'linguagens', nivel: 3, pre_requisitos: [] },
+  { id: 'ling.literatura.romantismo', titulo: 'Romantismo',            descricao: 'Contexto histórico, características e principais autores',       area: 'linguagens', disciplina: 'linguagens', nivel: 2, pre_requisitos: [] },
+  { id: 'ling.redacao',              titulo: 'Redação ENEM',            descricao: 'Dissertação argumentativa, competências e repertório sociocultural', area: 'linguagens', disciplina: 'linguagens', nivel: 2, pre_requisitos: ['ling.interpretacao'] },
+  { id: 'ling.variacao',             titulo: 'Variação Linguística',    descricao: 'Dialetos, registros, preconceito linguístico e norma padrão',   area: 'linguagens', disciplina: 'linguagens', nivel: 2, pre_requisitos: [] },
+
+  // ── Filosofia ──
+  { id: 'fil.iluminismo',            titulo: 'Iluminismo e Contrato Social', descricao: 'Locke, Rousseau, Montesquieu e as bases do Estado moderno', area: 'filosofia',  disciplina: 'filosofia',  nivel: 2, pre_requisitos: [] },
+  { id: 'fil.etica',                 titulo: 'Ética e Cidadania',       descricao: 'Kant, utilitarismo, direitos humanos e ética aplicada',         area: 'filosofia',  disciplina: 'filosofia',  nivel: 2, pre_requisitos: [] },
+  { id: 'fil.filosofia.antiga',      titulo: 'Filosofia Antiga',        descricao: 'Sócrates, Platão, Aristóteles e o nascimento da filosofia',     area: 'filosofia',  disciplina: 'filosofia',  nivel: 1, pre_requisitos: [] },
+
+  // ── Sociologia ──
+  { id: 'soc.desigualdade',          titulo: 'Desigualdades Sociais',   descricao: 'Classes sociais, estratificação, raça, gênero e mobilidade social', area: 'sociologia', disciplina: 'sociologia', nivel: 2, pre_requisitos: [] },
+  { id: 'soc.trabalho',              titulo: 'Trabalho e Capitalismo',  descricao: 'Marx, modo de produção, alienação e relações de trabalho',      area: 'sociologia', disciplina: 'sociologia', nivel: 2, pre_requisitos: [] },
+  { id: 'soc.cultura',               titulo: 'Cultura e Identidade',    descricao: 'Conceito de cultura, multiculturalismo e indústria cultural',   area: 'sociologia', disciplina: 'sociologia', nivel: 1, pre_requisitos: [] },
 ]
 
 // Real ENEM questions (pure text, no images needed)
